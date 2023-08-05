@@ -9,11 +9,11 @@ if grep -q "_pulsar.ConnectError: Pulsar error: ConnectError" "./out/verificatio
     exit 1
 fi
 
+echo "Results:"
 if grep -q "Partitions need to create" "./out/verification.log"; then
     echo "NOK Missing partitions found"
 fi
 
-echo "Results:"
 if grep -q verification-message "./out/consumer.log"; then
   echo "OK 'verification-message' was present in 'monolog' topic before restart"
 else 
