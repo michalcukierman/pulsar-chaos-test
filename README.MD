@@ -19,11 +19,11 @@ sh run_proxy.sh
 
  Execute the command:
  ```
-sh run_proxy.sh
+sh run.sh
  ```
 
 ## Troubleshooting
-Sometimes background processes are not killed, it can be done by running.
+- Sometimes background processes are not killed, it can be done by running.
 Make sure to use it with causion, as it may affect other processes runing on your machine.
 Tested on MacOS
 ```
@@ -31,3 +31,5 @@ killall -9 Python
 killall -9 bash
 killall -9 kubectl
 ```
+
+- Sometimes the verification need to be re-run (output in a console).
