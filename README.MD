@@ -2,7 +2,7 @@
 
 ## Running
 1. Make sure that kubectl is configured with valid K8S cluster with Pulsar installed
-2. Create partitioned topic `monolog`
+2. Create partitioned topic `chaos-test`
 
  ```
 sh run_prepare_topic.sh

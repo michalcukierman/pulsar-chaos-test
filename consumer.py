@@ -1,8 +1,9 @@
 import pulsar
 
 client = pulsar.Client('pulsar://localhost:6650')
-consumer = client.subscribe('websight/dxp/monolog',
-                            subscription_name='python-produce')
+consumer = client.subscribe('websight/dxp/chaos-test',
+                            subscription_name='python-consume',
+                            initial_position=pulsar.InitialPosition.Earliest)
 
 while True:
     msg = consumer.receive()

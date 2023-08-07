@@ -14,13 +14,14 @@ echo "Creating output dirctory ./out"
 rm -rf ./out
 mkdir ./out
 
-echo "Starting producer"
-python3 producer.py &> out/producer.log &
-PRODUCER_PID=$! 
+
 echo "Starting consumer"
 python3 consumer.py &> out/consumer.log &
 CONSUMER_PID=$!
-echo "Waiting (30s) for the messages to be produced to monolog"
+echo "Starting producer"
+python3 producer.py &> out/producer.log &
+PRODUCER_PID=$! 
+echo "Waiting (30s) for the messages to be produced to chaos-test"
 sleep 30
 
 echo "Restarting broker pods"
