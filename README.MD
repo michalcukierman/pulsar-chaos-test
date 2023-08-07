@@ -1,5 +1,12 @@
 # Pulsar chaos testing
 
+## Requirement
+1. Installed pip3, python3
+2. Depencencies installed:
+```
+pip3 install pulsar-client==3.2.0
+```
+
 ## Running
 1. Make sure that kubectl is configured with valid K8S cluster with Pulsar installed
 2. Create partitioned topic `chaos-test`
