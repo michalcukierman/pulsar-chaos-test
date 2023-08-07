@@ -6,8 +6,8 @@ consumer = client.subscribe('websight/dxp/chaos-test',
                             initial_position=pulsar.InitialPosition.Earliest)
 
 while True:
-    msg = consumer.receive()
-    print("Received message: '%s'" % msg.data(5000))
+    msg = consumer.receive(5000)
+    print("Received message: '%s'" % msg.data())
     consumer.acknowledge(msg)
 
 client.close()

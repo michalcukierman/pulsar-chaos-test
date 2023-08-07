@@ -1,0 +1,184 @@
+2023-08-07 20:34:56.379 INFO  [0x10f877e00] Client:90 | Subscribing on Topic :websight/dxp/chaos-test
+2023-08-07 20:34:56.380 INFO  [0x10f877e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:34:56.380 INFO  [0x10f877e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:34:56.382 INFO  [0x70000c4eb000] ClientConnection:382 | [[::1]:54666 -> [::1]:6650] Connected to broker
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce5fc48, python-verify0, 0] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce601c8, python-verify0, 1] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce60ff8, python-verify0, 2] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce61758, python-verify0, 3] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce61f38, python-verify0, 4] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce62678, python-verify0, 5] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce62de8, python-verify0, 6] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce63528, python-verify0, 7] Getting connection from pool
+2023-08-07 20:34:56.960 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce63ce8, python-verify0, 8] Getting connection from pool
+2023-08-07 20:34:56.961 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce64428, python-verify0, 9] Getting connection from pool
+2023-08-07 20:34:56.961 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce64be8, python-verify0, 10] Getting connection from pool
+2023-08-07 20:34:56.961 INFO  [0x70000c4eb000] HandlerBase:72 | [0x7f879ce65328, python-verify0, 11] Getting connection from pool
+2023-08-07 20:34:57.099 INFO  [0x70000c4eb000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:34:57.099 INFO  [0x70000c4eb000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:34:57.100 INFO  [0x70000c4eb000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:34:57.101 INFO  [0x70000c4eb000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:34:57.101 INFO  [0x70000c4eb000] ClientConnection:384 | [[::1]:54667 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:34:57.102 INFO  [0x70000c4eb000] ClientConnection:384 | [[::1]:54668 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce61758, python-verify0, 3] Created consumer on broker [[::1]:54668 -> [::1]:6650] 
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 11
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce601c8, python-verify0, 1] Created consumer on broker [[::1]:54668 -> [::1]:6650] 
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 10
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce63528, python-verify0, 7] Created consumer on broker [[::1]:54668 -> [::1]:6650] 
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 9
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce62678, python-verify0, 5] Created consumer on broker [[::1]:54668 -> [::1]:6650] 
+2023-08-07 20:34:57.694 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 8
+2023-08-07 20:34:57.695 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce64428, python-verify0, 9] Created consumer on broker [[::1]:54668 -> [::1]:6650] 
+2023-08-07 20:34:57.695 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 7
+2023-08-07 20:34:57.695 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce5fc48, python-verify0, 0] Created consumer on broker [[::1]:54667 -> [::1]:6650] 
+2023-08-07 20:34:57.695 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 6
+2023-08-07 20:34:57.706 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce60ff8, python-verify0, 2] Created consumer on broker [[::1]:54667 -> [::1]:6650] 
+2023-08-07 20:34:57.706 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 5
+2023-08-07 20:34:57.706 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce62de8, python-verify0, 6] Created consumer on broker [[::1]:54667 -> [::1]:6650] 
+2023-08-07 20:34:57.706 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 4
+2023-08-07 20:34:57.706 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce65328, python-verify0, 11] Created consumer on broker [[::1]:54668 -> [::1]:6650] 
+2023-08-07 20:34:57.706 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 3
+2023-08-07 20:34:57.712 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce64be8, python-verify0, 10] Created consumer on broker [[::1]:54667 -> [::1]:6650] 
+2023-08-07 20:34:57.712 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 2
+2023-08-07 20:34:57.712 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce61f38, python-verify0, 4] Created consumer on broker [[::1]:54667 -> [::1]:6650] 
+2023-08-07 20:34:57.712 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 1
+2023-08-07 20:34:57.712 INFO  [0x70000c4eb000] ConsumerImpl:282 | [0x7f879ce63ce8, python-verify0, 8] Created consumer on broker [[::1]:54667 -> [::1]:6650] 
+2023-08-07 20:34:57.712 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 0
+2023-08-07 20:34:57.712 INFO  [0x70000c4eb000] MultiTopicsConsumerImpl:146 | Successfully Subscribed to Topics
+Received message: 'b'hello-pulsar-0''
+Received message: 'b'hello-pulsar-4''
+Received message: 'b'hello-pulsar-12''
+Received message: 'b'hello-pulsar-24''
+Received message: 'b'hello-pulsar-36''
+Received message: 'b'hello-pulsar-48''
+Received message: 'b'hello-pulsar-60''
+Received message: 'b'hello-pulsar-72''
+Received message: 'b'hello-pulsar-84''
+Received message: 'b'hello-pulsar-96''
+Received message: 'b'hello-pulsar-108''
+Received message: 'b'hello-pulsar-120''
+Received message: 'b'hello-pulsar-132''
+Received message: 'b'hello-pulsar-144''
+Received message: 'b'hello-pulsar-156''
+Received message: 'b'hello-pulsar-168''
+Received message: 'b'hello-pulsar-180''
+Received message: 'b'hello-pulsar-192''
+Received message: 'b'hello-pulsar-204''
+Received message: 'b'hello-pulsar-216''
+Received message: 'b'hello-pulsar-228''
+Received message: 'b'hello-pulsar-240''
+Received message: 'b'hello-pulsar-252''
+Received message: 'b'hello-pulsar-264''
+Received message: 'b'hello-pulsar-276''
+Received message: 'b'hello-pulsar-288''
+Received message: 'b'hello-pulsar-300''
+Received message: 'b'hello-pulsar-312''
+Received message: 'b'hello-pulsar-324''
+Received message: 'b'hello-pulsar-336''
+Received message: 'b'hello-pulsar-348''
+Received message: 'b'hello-pulsar-360''
+Received message: 'b'hello-pulsar-372''
+Received message: 'b'hello-pulsar-384''
+Received message: 'b'hello-pulsar-16''
+Received message: 'b'hello-pulsar-28''
+Received message: 'b'hello-pulsar-40''
+Received message: 'b'hello-pulsar-52''
+Received message: 'b'hello-pulsar-64''
+Received message: 'b'hello-pulsar-76''
+Received message: 'b'hello-pulsar-88''
+Received message: 'b'hello-pulsar-100''
+Received message: 'b'hello-pulsar-112''
+Received message: 'b'hello-pulsar-124''
+Received message: 'b'hello-pulsar-136''
+Received message: 'b'hello-pulsar-148''
+Received message: 'b'hello-pulsar-160''
+Received message: 'b'hello-pulsar-172''
+Received message: 'b'hello-pulsar-184''
+Received message: 'b'hello-pulsar-196''
+Received message: 'b'hello-pulsar-208''
+Received message: 'b'hello-pulsar-220''
+Received message: 'b'hello-pulsar-232''
+Received message: 'b'hello-pulsar-244''
+Received message: 'b'hello-pulsar-256''
+Received message: 'b'hello-pulsar-268''
+Received message: 'b'hello-pulsar-280''
+Received message: 'b'hello-pulsar-292''
+Received message: 'b'hello-pulsar-304''
+Received message: 'b'hello-pulsar-316''
+Received message: 'b'hello-pulsar-328''
+Received message: 'b'hello-pulsar-340''
+Received message: 'b'hello-pulsar-352''
+Received message: 'b'hello-pulsar-364''
+Received message: 'b'hello-pulsar-376''
+Received message: 'b'hello-pulsar-388''
+Received message: 'b'hello-pulsar-8''
+Received message: 'b'hello-pulsar-20''
+Received message: 'b'hello-pulsar-32''
+Received message: 'b'hello-pulsar-44''
+Received message: 'b'hello-pulsar-56''
+Received message: 'b'hello-pulsar-68''
+Received message: 'b'hello-pulsar-80''
+Received message: 'b'hello-pulsar-92''
+Received message: 'b'hello-pulsar-104''
+Received message: 'b'hello-pulsar-116''
+Received message: 'b'hello-pulsar-128''
+Received message: 'b'hello-pulsar-140''
+Received message: 'b'hello-pulsar-152''
+Received message: 'b'hello-pulsar-164''
+Received message: 'b'hello-pulsar-176''
+Received message: 'b'hello-pulsar-188''
+Received message: 'b'hello-pulsar-200''
+Received message: 'b'hello-pulsar-212''
+Received message: 'b'hello-pulsar-224''
+Received message: 'b'hello-pulsar-236''
+Received message: 'b'hello-pulsar-248''
+Received message: 'b'hello-pulsar-260''
+Received message: 'b'hello-pulsar-272''
+Received message: 'b'hello-pulsar-284''
+Received message: 'b'hello-pulsar-296''
+Received message: 'b'hello-pulsar-308''
+Received message: 'b'hello-pulsar-320''
+Received message: 'b'hello-pulsar-332''
+Received message: 'b'hello-pulsar-344''
+Received message: 'b'hello-pulsar-356''
+Received message: 'b'hello-pulsar-368''
+Received message: 'b'hello-pulsar-380''
+Received message: 'b'hello-pulsar-392''
+Traceback (most recent call last):
+  File "/Users/michalcukierman/dev/pulsar/chaos_test/consumer_verify.py", line 9, in <module>
+    msg = consumer.receive(5000)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pulsar/__init__.py", line 1277, in receive
+    msg = self._consumer.receive(timeout_millis)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_pulsar.Timeout: Pulsar error: TimeOut
+2023-08-07 20:35:02.885 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce64be8, python-verify0, 10] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.885 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce64be8, python-verify0, 10] Closed consumer for race condition: 10
+2023-08-07 20:35:02.885 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce63ce8, python-verify0, 8] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.885 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce63ce8, python-verify0, 8] Closed consumer for race condition: 8
+2023-08-07 20:35:02.885 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce62de8, python-verify0, 6] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.885 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce62de8, python-verify0, 6] Closed consumer for race condition: 6
+2023-08-07 20:35:02.885 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce61f38, python-verify0, 4] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.885 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce61f38, python-verify0, 4] Closed consumer for race condition: 4
+2023-08-07 20:35:02.885 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce60ff8, python-verify0, 2] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.885 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce60ff8, python-verify0, 2] Closed consumer for race condition: 2
+2023-08-07 20:35:02.885 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce63528, python-verify0, 7] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce63528, python-verify0, 7] Closed consumer for race condition: 7
+2023-08-07 20:35:02.886 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce62678, python-verify0, 5] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce62678, python-verify0, 5] Closed consumer for race condition: 5
+2023-08-07 20:35:02.886 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce61758, python-verify0, 3] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce61758, python-verify0, 3] Closed consumer for race condition: 3
+2023-08-07 20:35:02.886 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce65328, python-verify0, 11] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce65328, python-verify0, 11] Closed consumer for race condition: 11
+2023-08-07 20:35:02.886 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce64428, python-verify0, 9] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce64428, python-verify0, 9] Closed consumer for race condition: 9
+2023-08-07 20:35:02.886 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce601c8, python-verify0, 1] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce601c8, python-verify0, 1] Closed consumer for race condition: 1
+2023-08-07 20:35:02.886 WARN  [0x10f877e00] ConsumerImpl:151 | [0x7f879ce5fc48, python-verify0, 0] Destroyed consumer which was not properly closed
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ConsumerImpl:159 | [0x7f879ce5fc48, python-verify0, 0] Closed consumer for race condition: 0
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ClientConnection:1205 | [[::1]:54666 -> [::1]:6650] Connection disconnected
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ClientConnection:263 | [[::1]:54666 -> [::1]:6650] Destroyed connection
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ClientConnection:1205 | [[::1]:54667 -> [::1]:6650] Connection disconnected
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ClientConnection:1205 | [[::1]:54668 -> [::1]:6650] Connection disconnected
+2023-08-07 20:35:02.886 INFO  [0x10f877e00] ClientConnection:263 | [[::1]:54667 -> [::1]:6650] Destroyed connection
+2023-08-07 20:35:02.887 INFO  [0x10f877e00] ClientConnection:263 | [[::1]:54668 -> [::1]:6650] Destroyed connection

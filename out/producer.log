@@ -1,0 +1,1058 @@
+2023-08-07 20:27:19.136 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.136 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:27:19.139 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54448 -> [::1]:6650] Connected to broker
+2023-08-07 20:27:19.721 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:27:19.864 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.865 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.866 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54449 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.867 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.867 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.868 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54452 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.998 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.998 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.999 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54454 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:20.532 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-8, ] Created producer on broker [[::1]:54449 -> [::1]:6650] 
+2023-08-07 20:27:20.532 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-0, ] Created producer on broker [[::1]:54449 -> [::1]:6650] 
+2023-08-07 20:27:20.532 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-4, ] Created producer on broker [[::1]:54449 -> [::1]:6650] 
+2023-08-07 20:27:20.533 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-2, ] Created producer on broker [[::1]:54452 -> [::1]:6650] 
+2023-08-07 20:27:20.540 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-6, ] Created producer on broker [[::1]:54452 -> [::1]:6650] 
+2023-08-07 20:27:20.540 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-10, ] Created producer on broker [[::1]:54452 -> [::1]:6650] 
+2023-08-07 20:27:20.594 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-3, ] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:27:20.594 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-7, ] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:27:20.614 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-1, ] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:27:20.616 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-11, ] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:27:20.616 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-9, ] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:27:20.667 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-5, ] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:27:49.663 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 0.1 s
+2023-08-07 20:27:49.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 0.1 s
+2023-08-07 20:27:49.707 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 0.1 s
+2023-08-07 20:27:49.767 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:27:49.786 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:27:49.807 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:27:49.921 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54448 -> [::1]:6650] Failed lookup req_id: 14 error: Retryable msg: {"errorMsg":"Failed due to pulsar service is not ready","reqId":2230311110952119061, "remote":"pulsar-broker.pulsar.svc.cluster.local/10.124.3.4:6650", "local":"/10.124.4.2:50098"}
+2023-08-07 20:27:49.921 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result Retryable
+2023-08-07 20:27:49.921 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-4 for 100 ms, remaining time: 29900 ms
+2023-08-07 20:27:49.921 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54448 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:27:49.921 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54448 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:27:49.921 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-8, result ConnectError
+2023-08-07 20:27:49.921 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 0.184 s
+2023-08-07 20:27:49.921 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-0, result ConnectError
+2023-08-07 20:27:49.921 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 0.184 s
+2023-08-07 20:27:50.023 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 2 @ 0x7fb18881fe00
+2023-08-07 20:27:50.023 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:50.023 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:27:50.024 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54473 -> [::1]:6650] Connected to broker
+2023-08-07 20:27:50.105 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:27:50.105 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:27:50.772 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Created producer on broker [[::1]:54452 -> [::1]:6650] 
+2023-08-07 20:27:50.772 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Created producer on broker [[::1]:54452 -> [::1]:6650] 
+2023-08-07 20:27:50.772 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Created producer on broker [[::1]:54452 -> [::1]:6650] 
+2023-08-07 20:27:50.931 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54449 -> [::1]:6650] Read operation failed: End of file
+2023-08-07 20:27:50.932 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54449 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:27:50.932 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54449 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:03.621 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.674 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.719 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.721 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:28:03.774 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:28:03.779 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.780 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.804 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.822 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:28:03.877 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54473 -> [::1]:6650] Failed lookup req_id: 20 error: Retryable msg: {"errorMsg":"Failed due to pulsar service is not ready","reqId":3479167683527137038, "remote":"pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650", "local":"/10.124.4.2:54302"}
+2023-08-07 20:28:03.877 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-2, result Retryable
+2023-08-07 20:28:03.877 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-2 for 184 ms, remaining time: 29816 ms
+2023-08-07 20:28:03.877 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54473 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:03.877 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54473 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:03.877 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-6, result ConnectError
+2023-08-07 20:28:03.877 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 0.184 s
+2023-08-07 20:28:03.877 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-10, result ConnectError
+2023-08-07 20:28:03.877 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 0.184 s
+2023-08-07 20:28:03.879 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:28:03.879 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 2 @ 0x7fb1af839600
+2023-08-07 20:28:03.880 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:03.880 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:03.880 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54477 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:03.880 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:28:03.908 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:28:04.062 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:28:04.062 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:28:04.595 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:28:04.595 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:28:04.600 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:28:04.600 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:28:04.602 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:28:04.602 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Created producer on broker [[::1]:54454 -> [::1]:6650] 
+2023-08-07 20:28:04.967 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54452 -> [::1]:6650] Read operation failed: End of file
+2023-08-07 20:28:04.967 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54452 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:04.967 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54452 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:19.444 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.447 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.462 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.548 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:28:19.549 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:28:19.559 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.562 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:28:19.582 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.582 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.659 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Getting connection from pool
+2023-08-07 20:28:19.682 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Getting connection from pool
+2023-08-07 20:28:19.682 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Getting connection from pool
+2023-08-07 20:28:19.735 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54477 -> [::1]:6650] Failed lookup req_id: 29 error: Retryable msg: {"errorMsg":"Failed due to pulsar service is not ready","reqId":3639903041562562166, "remote":"pulsar-broker.pulsar.svc.cluster.local/10.124.4.3:6650", "local":"/10.124.4.2:52424"}
+2023-08-07 20:28:19.735 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result Retryable
+2023-08-07 20:28:19.735 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-4 for 384 ms, remaining time: 29616 ms
+2023-08-07 20:28:19.735 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54477 -> [::1]:6650] Failed lookup req_id: 30 error: Retryable msg: {"errorMsg":"Failed due to pulsar service is not ready","reqId":3639903041562562167, "remote":"pulsar-broker.pulsar.svc.cluster.local/10.124.4.3:6650", "local":"/10.124.4.2:52424"}
+2023-08-07 20:28:19.735 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-8, result Retryable
+2023-08-07 20:28:19.735 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-8 for 744 ms, remaining time: 29256 ms
+2023-08-07 20:28:19.736 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54477 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:19.736 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54477 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:19.736 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-0, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 0.188 s
+2023-08-07 20:28:19.736 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Schedule reconnection in 0.184 s
+2023-08-07 20:28:19.736 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Schedule reconnection in 0.184 s
+2023-08-07 20:28:19.736 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Schedule reconnection in 0.184 s
+2023-08-07 20:28:19.753 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.764 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.795 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.808 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54448 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:19.854 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Getting connection from pool
+2023-08-07 20:28:19.854 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 4 @ 0x7fb1a9033600
+2023-08-07 20:28:19.854 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:19.854 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:19.854 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54483 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:19.866 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Getting connection from pool
+2023-08-07 20:28:19.894 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.894 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.895 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Getting connection from pool
+2023-08-07 20:28:19.924 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Getting connection from pool
+2023-08-07 20:28:19.924 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Getting connection from pool
+2023-08-07 20:28:19.924 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Getting connection from pool
+2023-08-07 20:28:19.924 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:28:19.936 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.995 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:28:19.995 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:28:20.037 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:28:20.448 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54483 -> [::1]:6650] Failed lookup req_id: 45 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:20.448 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result Retryable
+2023-08-07 20:28:20.448 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-4 for 1504 ms, remaining time: 28112 ms
+2023-08-07 20:28:20.448 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54483 -> [::1]:6650] Failed lookup req_id: 44 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:20.448 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-10, result Retryable
+2023-08-07 20:28:20.448 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-10 for 3200 ms, remaining time: 26800 ms
+2023-08-07 20:28:20.448 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54483 -> [::1]:6650] Failed lookup req_id: 43 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:20.448 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-6, result Retryable
+2023-08-07 20:28:20.448 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-6 for 5824 ms, remaining time: 24176 ms
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54483 -> [::1]:6650] Failed lookup req_id: 42 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-2, result Retryable
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-2 for 12288 ms, remaining time: 17712 ms
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54483 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54483 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-9, result ConnectError
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Schedule reconnection in 0.184 s
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-1, result ConnectError
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Schedule reconnection in 0.184 s
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-5, result ConnectError
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Schedule reconnection in 0.184 s
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result ConnectError
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Schedule reconnection in 0.384 s
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result ConnectError
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Schedule reconnection in 0.384 s
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result ConnectError
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Schedule reconnection in 0.384 s
+2023-08-07 20:28:20.449 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-0, result ConnectError
+2023-08-07 20:28:20.449 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 0.4 s
+2023-08-07 20:28:20.479 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 7 @ 0x7fb19f825800
+2023-08-07 20:28:20.479 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:20.479 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:20.481 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54488 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:20.637 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Getting connection from pool
+2023-08-07 20:28:20.637 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Getting connection from pool
+2023-08-07 20:28:20.637 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Getting connection from pool
+2023-08-07 20:28:20.837 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Getting connection from pool
+2023-08-07 20:28:20.837 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Getting connection from pool
+2023-08-07 20:28:20.837 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Getting connection from pool
+2023-08-07 20:28:20.850 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:28:21.066 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 54 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.066 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-0, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-0 for 25600 ms, remaining time: 4400 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 53 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-11 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 52 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-3 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 51 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-7 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1444 | [[::1]:54488 -> [::1]:6650] Failed partition-metadata lookup req_id: 50 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-partition-metadata-persistent://websight/dxp/chaos-test for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 49 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-5, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-5 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 48 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-1, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-1 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 47 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-9, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-9 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54488 -> [::1]:6650] Failed lookup req_id: 46 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: No route to host: pulsar-broker.pulsar.svc.cluster.local/10.124.8.3:6650
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-8, result Retryable
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-8 for 29256 ms, remaining time: 0 ms
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54488 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:21.067 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54488 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:21.067 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54488 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:21.955 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:21.955 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:21.955 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:21.956 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54490 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:31.956 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54490 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:28:31.957 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54490 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:31.957 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 0.186 s
+2023-08-07 20:28:31.957 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 0.186 s
+2023-08-07 20:28:31.957 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 0.186 s
+2023-08-07 20:28:31.957 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54490 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:32.144 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:28:32.144 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:32.144 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:32.144 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:32.144 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:28:32.144 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:28:32.146 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54492 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54492 -> [::1]:6650] Failed lookup req_id: 57 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-6, result Retryable
+2023-08-07 20:28:32.893 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-6 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54492 -> [::1]:6650] Failed lookup req_id: 56 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-10, result Retryable
+2023-08-07 20:28:32.893 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-10 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54492 -> [::1]:6650] Failed lookup req_id: 55 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result Retryable
+2023-08-07 20:28:32.893 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-4 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54492 -> [::1]:6650] Failed lookup req_id: 58 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-2, result Retryable
+2023-08-07 20:28:32.893 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-2 for 17712 ms, remaining time: 0 ms
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54492 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:32.893 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54492 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:32.893 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54492 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:33.827 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54473 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:46.669 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:46.669 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:46.669 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:46.670 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54507 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:49.350 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:49.350 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:49.351 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54509 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:49.686 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54477 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:50.027 ERROR [0x70000bc5a000] ClientConnection:1444 | [[::1]:54509 -> [::1]:6650] Failed partition-metadata lookup req_id: 1 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:28:50.028 INFO  [0x70000bc5a000] RetryableLookupService:142 | Reschedule get-partition-metadata-persistent://websight/dxp/chaos-test for 100 ms, remaining time: 29900 ms
+2023-08-07 20:28:50.028 ERROR [0x70000bc5a000] ClientConnection:616 | [[::1]:54509 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:50.028 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54509 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:50.028 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54509 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:50.132 INFO  [0x70000bc5a000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:50.132 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:50.132 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:50.133 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54510 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:50.294 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54483 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:50.433 WARN  [0x70000bad1000] ClientConnection:1127 | [[::1]:54454 -> [::1]:6650] Forcing connection to close after keep-alive timeout
+2023-08-07 20:28:50.434 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54454 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:50.434 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54454 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:56.673 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54507 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:28:56.682 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54507 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:56.682 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.682 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 WARN  [0x70000bad1000] PartitionedProducerImpl:473 | Failed to getPartitionMetadata: ConnectError
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Schedule reconnection in 0.1 s
+2023-08-07 20:28:56.683 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54507 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:56.787 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:28:56.787 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Getting connection from pool
+2023-08-07 20:28:56.788 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54512 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:57.393 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:57.393 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:57.393 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:28:57.394 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54513 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:28:57.489 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54512 -> [::1]:6650] Failed lookup req_id: 67 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-07 20:28:57.489 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-9, result Retryable
+2023-08-07 20:28:57.489 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-9 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:28:57.489 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54512 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:57.489 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54512 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:57.489 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result ConnectError
+2023-08-07 20:28:57.489 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Schedule reconnection in 1.504 s
+2023-08-07 20:28:57.489 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result ConnectError
+2023-08-07 20:28:57.489 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Schedule reconnection in 1.504 s
+2023-08-07 20:28:57.490 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result ConnectError
+2023-08-07 20:28:57.490 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Schedule reconnection in 1.504 s
+2023-08-07 20:28:57.490 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-5, result ConnectError
+2023-08-07 20:28:57.490 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Schedule reconnection in 0.744 s
+2023-08-07 20:28:57.490 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-1, result ConnectError
+2023-08-07 20:28:57.490 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Schedule reconnection in 0.744 s
+2023-08-07 20:28:58.237 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Getting connection from pool
+2023-08-07 20:28:58.237 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 5 @ 0x7fb1af839600
+2023-08-07 20:28:58.237 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:58.237 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:58.237 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Getting connection from pool
+2023-08-07 20:28:58.238 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54514 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:58.997 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Getting connection from pool
+2023-08-07 20:28:58.997 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Getting connection from pool
+2023-08-07 20:28:58.997 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Getting connection from pool
+2023-08-07 20:29:00.136 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54510 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:00.137 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54510 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:00.137 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:29:00.137 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54510 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:00.137 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:00.137 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:00.138 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54515 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:29:00.714 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:29:00.715 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:29:00.715 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:29:00.715 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:29:00.715 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:29:00.856 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:00.857 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:00.858 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54516 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] ClientConnection:1521 | [[::1]:54515 -> [::1]:6650] Failed lookup req_id: 3 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local' [A(1)] after 2 queries 
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-1, result Retryable
+2023-08-07 20:29:00.861 INFO  [0x70000bc5a000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-1 for 100 ms, remaining time: 29900 ms
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] ClientConnection:616 | [[::1]:54515 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54515 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-2, result ConnectError
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 2 Error - ConnectError
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result ConnectError
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result ConnectError
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-5, result ConnectError
+2023-08-07 20:29:00.861 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-6, result ConnectError
+2023-08-07 20:29:00.862 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result ConnectError
+2023-08-07 20:29:00.862 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-8, result ConnectError
+2023-08-07 20:29:00.862 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-9, result ConnectError
+2023-08-07 20:29:00.862 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-10, result ConnectError
+2023-08-07 20:29:00.862 ERROR [0x70000bc5a000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result ConnectError
+2023-08-07 20:29:00.862 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:00.862 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:00.863 INFO  [0x70000bde3000] ClientConnection:382 | [[::1]:54517 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:00.962 INFO  [0x70000bc5a000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 10 @ 0x7fb19f827000
+2023-08-07 20:29:00.962 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:00.962 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:00.963 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54518 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:01.479 INFO  [0x70000bc5a000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-0, ] Created producer on broker [[::1]:54516 -> [::1]:6650] 
+2023-08-07 20:29:07.394 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54513 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:07.394 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54513 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:07.394 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 0.372 s
+2023-08-07 20:29:07.394 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 0.4 s
+2023-08-07 20:29:07.394 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 1.536 s
+2023-08-07 20:29:07.394 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54513 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:07.767 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:29:07.795 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:29:08.243 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54514 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:08.243 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54514 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Schedule reconnection in 1.504 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Schedule reconnection in 1.504 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Schedule reconnection in 3.2 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Schedule reconnection in 3.2 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Schedule reconnection in 3.2 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 0.1 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 0.1 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 0.1 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 0.752 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 0.728 s
+2023-08-07 20:29:08.243 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54514 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:08.345 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:29:08.345 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:08.345 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:08.345 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:08.345 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:29:08.346 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:29:08.347 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54521 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:08.934 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:29:08.972 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:29:09.000 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:29:09.747 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Getting connection from pool
+2023-08-07 20:29:09.747 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Getting connection from pool
+2023-08-07 20:29:10.864 ERROR [0x70000bde3000] ClientConnection:573 | [[::1]:54517 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:10.864 ERROR [0x70000bde3000] ClientConnection:1203 | [[::1]:54517 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:10.864 ERROR [0x70000bde3000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:29:10.864 INFO  [0x70000bde3000] ClientConnection:263 | [[::1]:54517 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:10.865 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:10.865 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:10.866 INFO  [0x70000bde3000] ClientConnection:382 | [[::1]:54522 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:10.964 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54518 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:10.964 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54518 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:10.964 INFO  [0x70000bc5a000] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-3-0] Closing producer for topic 0x7fb1af46e0e8
+2023-08-07 20:29:10.964 INFO  [0x70000bc5a000] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-1, ] Closing producer for topic 0x7fb1af46d3e8
+2023-08-07 20:29:10.964 INFO  [0x70000bc5a000] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-1, ] Closed producer 1
+2023-08-07 20:29:10.964 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.964 ERROR [0x70000bc5a000] PartitionedProducerImpl:324 | Closing the producer failed for partition - 2
+2023-08-07 20:29:10.964 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.964 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.964 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.965 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.965 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-7, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.965 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.965 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.965 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.965 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-11, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ClientConnection:1205 | [[::1]:54516 -> [::1]:6650] Connection disconnected
+2023-08-07 20:29:10.965 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-3-0] Failed to close producer: ResultDisconnected
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:29:10.965 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, pulsar-3-0] , [batching  = off]
+2023-08-07 20:29:11.425 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:29:11.425 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:29:11.425 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:29:11.426 INFO  [0x70000bde3000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:29:11.447 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Getting connection from pool
+2023-08-07 20:29:11.447 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Getting connection from pool
+2023-08-07 20:29:11.447 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Getting connection from pool
+2023-08-07 20:29:11.469 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54518 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:11.470 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54515 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:11.470 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54516 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:11.583 INFO  [0x70000bde3000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:11.583 INFO  [0x70000bde3000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:11.584 INFO  [0x70000bde3000] ClientConnection:384 | [[::1]:54523 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] ClientConnection:1521 | [[::1]:54522 -> [::1]:6650] Failed lookup req_id: 5 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result Retryable
+2023-08-07 20:29:11.634 INFO  [0x70000bde3000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-3 for 100 ms, remaining time: 29900 ms
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] ClientConnection:1521 | [[::1]:54522 -> [::1]:6650] Failed lookup req_id: 9 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result Retryable
+2023-08-07 20:29:11.634 INFO  [0x70000bde3000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-7 for 200 ms, remaining time: 29800 ms
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] ClientConnection:1521 | [[::1]:54522 -> [::1]:6650] Failed lookup req_id: 13 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result Retryable
+2023-08-07 20:29:11.634 INFO  [0x70000bde3000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-11 for 384 ms, remaining time: 29616 ms
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] ClientConnection:616 | [[::1]:54522 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] ClientConnection:1203 | [[::1]:54522 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-1, result ConnectError
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 1 Error - ConnectError
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-5, result ConnectError
+2023-08-07 20:29:11.634 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-9, result ConnectError
+2023-08-07 20:29:11.634 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:11.634 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:11.635 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54524 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:11.737 INFO  [0x70000bde3000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 3 @ 0x7fb19f825800
+2023-08-07 20:29:11.738 INFO  [0x70000bde3000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:11.738 INFO  [0x70000bde3000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:11.739 INFO  [0x70000bde3000] ClientConnection:382 | [[::1]:54525 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] ClientConnection:1521 | [[::1]:54525 -> [::1]:6650] Failed lookup req_id: 14 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result Retryable
+2023-08-07 20:29:12.350 INFO  [0x70000bde3000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-3 for 752 ms, remaining time: 29148 ms
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] ClientConnection:1521 | [[::1]:54525 -> [::1]:6650] Failed lookup req_id: 16 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result Retryable
+2023-08-07 20:29:12.350 INFO  [0x70000bde3000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-11 for 1488 ms, remaining time: 28128 ms
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] ClientConnection:1521 | [[::1]:54525 -> [::1]:6650] Failed lookup req_id: 15 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result Retryable
+2023-08-07 20:29:12.350 INFO  [0x70000bde3000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-7 for 3136 ms, remaining time: 26664 ms
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] ClientConnection:616 | [[::1]:54525 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:29:12.350 ERROR [0x70000bde3000] ClientConnection:1203 | [[::1]:54525 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:12.350 INFO  [0x70000bde3000] ClientConnection:263 | [[::1]:54525 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:13.105 INFO  [0x70000bde3000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:13.105 INFO  [0x70000bde3000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:13.105 INFO  [0x70000bde3000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:13.106 INFO  [0x70000bde3000] ClientConnection:382 | [[::1]:54526 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:18.349 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54521 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:18.349 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54521 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 0.8 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 0.8 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 0.8 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 3.2 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 1.536 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 1.6 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Schedule reconnection in 3.2 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Schedule reconnection in 3.2 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Schedule reconnection in 5.824 s
+2023-08-07 20:29:18.349 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Schedule reconnection in 5.824 s
+2023-08-07 20:29:18.350 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Schedule reconnection in 5.824 s
+2023-08-07 20:29:18.350 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54521 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:19.153 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:29:19.153 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:19.153 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:19.153 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:19.153 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:29:19.154 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:29:19.154 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54528 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:19.723 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:19.723 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:19.723 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:19.724 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54529 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:19.889 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:29:19.954 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:29:21.553 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:29:21.553 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Getting connection from pool
+2023-08-07 20:29:21.554 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Getting connection from pool
+2023-08-07 20:29:21.589 ERROR [0x70000bde3000] ClientConnection:573 | [[::1]:54523 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:21.589 ERROR [0x70000bde3000] ClientConnection:1203 | [[::1]:54523 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:21.589 INFO  [0x70000bde3000] ClientConnection:263 | [[::1]:54523 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:21.638 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54524 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:21.638 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54524 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:21.638 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:29:21.639 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54524 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:21.639 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:21.639 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:21.640 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54530 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:21.697 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:21.698 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:21.698 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:21.698 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54531 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:22.309 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-1, pulsar-1-20] Created producer on broker [[::1]:54531 -> [::1]:6650] 
+2023-08-07 20:29:22.309 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-5, pulsar-1-16] Created producer on broker [[::1]:54531 -> [::1]:6650] 
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ClientConnection:573 | [[::1]:54526 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ClientConnection:1203 | [[::1]:54526 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] PartitionedProducerImpl:324 | Closing the producer failed for partition - 0
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-1, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.106 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-7, ] Closing producer for topic 0x7fb18f4234d8
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-7, ] Closed producer 7
+2023-08-07 20:29:23.107 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.107 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.107 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.107 ERROR [0x70000bde3000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-11, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:29:23.107 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:29:23.108 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:29:23.108 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:29:23.108 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:29:23.108 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, ] , [batching  = off]
+2023-08-07 20:29:23.108 INFO  [0x70000bde3000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:29:23.609 INFO  [0x70000bde3000] ClientConnection:263 | [[::1]:54526 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:23.609 INFO  [0x70000bde3000] ClientConnection:263 | [[::1]:54522 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:24.174 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Getting connection from pool
+2023-08-07 20:29:24.174 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Getting connection from pool
+2023-08-07 20:29:24.174 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Getting connection from pool
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54528 -> [::1]:6650] Failed lookup req_id: 76 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] after 2 queries 
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result Retryable
+2023-08-07 20:29:24.320 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-11 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54528 -> [::1]:6650] Failed lookup req_id: 77 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] after 2 queries 
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result Retryable
+2023-08-07 20:29:24.320 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-3 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] ClientConnection:1521 | [[::1]:54528 -> [::1]:6650] Failed lookup req_id: 78 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] after 2 queries 
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result Retryable
+2023-08-07 20:29:24.320 INFO  [0x70000bad1000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-7 for 30000 ms, remaining time: 0 ms
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] ClientConnection:616 | [[::1]:54528 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:29:24.320 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54528 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:24.320 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54528 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:27.215 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54512 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:27.491 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:27.491 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:27.491 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:27.492 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54532 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:29.728 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54529 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:29.728 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54529 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:29.728 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 1.456 s
+2023-08-07 20:29:29.728 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 1.456 s
+2023-08-07 20:29:29.728 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 1.456 s
+2023-08-07 20:29:29.728 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 3.2 s
+2023-08-07 20:29:29.728 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 2.912 s
+2023-08-07 20:29:29.728 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 6.08 s
+2023-08-07 20:29:29.728 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54529 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:31.184 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:29:31.184 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:29:31.185 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:29:31.642 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54530 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:31.642 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54530 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:31.642 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:29:31.642 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54530 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:31.642 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:31.642 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:31.643 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54534 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:29:32.393 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:29:32.394 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:29:32.394 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:29:32.606 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:32.606 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:32.607 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:32.607 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:32.607 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54535 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:32.608 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54536 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:32.645 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:29:32.930 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:29:35.809 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:29:37.492 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54532 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:37.492 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54532 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Schedule reconnection in 0.744 s
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 3.072 s
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 3.072 s
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 3.072 s
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 6.144 s
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 6.08 s
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 11.904 s
+2023-08-07 20:29:37.492 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54532 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:38.240 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Getting connection from pool
+2023-08-07 20:29:38.241 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:38.241 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:38.241 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:38.242 INFO  [0x70000bad1000] ClientConnection:382 | [[::1]:54537 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:38.962 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-9, pulsar-1-18] Created producer on broker [[::1]:54531 -> [::1]:6650] 
+2023-08-07 20:29:40.569 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:29:40.570 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:29:40.570 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:29:40.802 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:40.802 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:40.802 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:40.803 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54538 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54535 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54536 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54535 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 8 Error - ConnectError
+2023-08-07 20:29:42.610 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54535 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54536 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] PartitionedProducerImpl:324 | Closing the producer failed for partition - 0
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-1, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.610 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54534 -> [::1]:6650] Connection disconnected
+2023-08-07 20:29:42.610 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.611 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.611 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-7, ] Closing producer for topic 0x7fb17f64b7a8
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-7, ] Closed producer 7
+2023-08-07 20:29:42.611 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.611 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.611 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.611 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-11, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:29:42.611 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54536 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:42.611 INFO  [0x113db5e00] ClientConnection:263 | [[::1]:54534 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:42.612 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:42.612 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:42.612 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54540 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:43.180 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:29:43.180 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:29:43.180 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:29:43.180 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:29:43.180 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:29:43.180 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:29:43.180 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:29:43.181 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:29:43.181 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:29:43.181 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:29:43.181 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:29:43.181 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:29:43.323 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:43.323 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:43.325 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54541 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:43.331 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:43.331 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:43.332 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54542 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:43.575 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:29:43.641 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:29:49.397 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:29:50.805 ERROR [0x70000bad1000] ClientConnection:573 | [[::1]:54538 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:50.806 ERROR [0x70000bad1000] ClientConnection:1203 | [[::1]:54538 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:50.806 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Schedule reconnection in 6.4 s
+2023-08-07 20:29:50.806 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Schedule reconnection in 6.4 s
+2023-08-07 20:29:50.806 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Schedule reconnection in 6.4 s
+2023-08-07 20:29:50.806 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Schedule reconnection in 11.904 s
+2023-08-07 20:29:50.806 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Schedule reconnection in 12.8 s
+2023-08-07 20:29:50.806 INFO  [0x70000bad1000] HandlerBase:149 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Schedule reconnection in 24.576 s
+2023-08-07 20:29:50.806 INFO  [0x70000bad1000] ClientConnection:263 | [[::1]:54538 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:53.325 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54541 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:53.325 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54541 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:53.326 ERROR [0x70000bc5a000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 0 Error - ConnectError
+2023-08-07 20:29:53.326 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54541 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54540 -> [::1]:6650] Connection disconnected
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54542 -> [::1]:6650] Connection disconnected
+2023-08-07 20:29:53.326 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54540 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] PartitionedProducerImpl:324 | Closing the producer failed for partition - 0
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-1, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-7, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-11, ] Closing producer for topic 0x7fb19f46d7b8
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-11, ] Closed producer 11
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:29:53.326 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:29:53.328 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, ] , [batching  = off]
+2023-08-07 20:29:53.328 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:29:53.328 INFO  [0x113db5e00] ClientConnection:263 | [[::1]:54542 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:53.328 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:53.328 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:53.329 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54543 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:53.891 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:29:53.891 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:29:53.891 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:29:53.892 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:29:54.038 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:54.038 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:54.038 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:54.038 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:54.039 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54550 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:54.039 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54551 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:54.618 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-11, pulsar-1-19] Created producer on broker [[::1]:54531 -> [::1]:6650] 
+2023-08-07 20:29:54.618 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-3, pulsar-1-21] Created producer on broker [[::1]:54531 -> [::1]:6650] 
+2023-08-07 20:29:54.618 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-7, pulsar-1-17] Created producer on broker [[::1]:54531 -> [::1]:6650] 
+2023-08-07 20:29:57.209 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Getting connection from pool
+2023-08-07 20:29:57.209 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Getting connection from pool
+2023-08-07 20:29:57.209 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Getting connection from pool
+2023-08-07 20:29:57.349 INFO  [0x70000bad1000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:57.349 INFO  [0x70000bad1000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:57.349 INFO  [0x70000bad1000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:57.350 INFO  [0x70000bad1000] ClientConnection:384 | [[::1]:54558 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:29:57.918 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-4, pulsar-2-1] Created producer on broker [[::1]:54558 -> [::1]:6650] 
+2023-08-07 20:29:57.919 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-10, pulsar-0-5] Created producer on broker [[::1]:54558 -> [::1]:6650] 
+2023-08-07 20:29:57.920 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-6, pulsar-0-4] Created producer on broker [[::1]:54558 -> [::1]:6650] 
+2023-08-07 20:30:02.711 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Getting connection from pool
+2023-08-07 20:30:02.999 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-8, pulsar-2-2] Created producer on broker [[::1]:54558 -> [::1]:6650] 
+2023-08-07 20:30:03.610 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Getting connection from pool
+2023-08-07 20:30:03.903 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-2, pulsar-0-3] Created producer on broker [[::1]:54558 -> [::1]:6650] 
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54550 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54551 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54550 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 0 Error - ConnectError
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54550 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54551 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] PartitionedProducerImpl:324 | Closing the producer failed for partition - 0
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-1, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54543 -> [::1]:6650] Connection disconnected
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-7, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-11, ] Closing producer for topic 0x7fb1af473a18
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-11, ] Closed producer 11
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:30:04.041 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, ] , [batching  = off]
+2023-08-07 20:30:04.042 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:30:04.042 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54551 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:04.042 INFO  [0x113db5e00] ClientConnection:263 | [[::1]:54543 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:04.042 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:04.042 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:30:04.043 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54560 -> [::1]:6650] Connected to broker
+2023-08-07 20:30:14.047 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54560 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:14.047 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54560 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:14.047 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:30:14.047 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54560 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:14.048 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:14.048 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:30:14.049 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54561 -> [::1]:6650] Connected to broker
+2023-08-07 20:30:14.619 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:30:14.620 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:30:14.758 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:14.758 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:14.759 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54562 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:14.761 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:14.761 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:14.761 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54563 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:15.387 INFO  [0x70000bad1000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Getting connection from pool
+2023-08-07 20:30:15.673 INFO  [0x70000bad1000] ProducerImpl:208 | [persistent://websight/dxp/chaos-test-partition-0, pulsar-2-0] Created producer on broker [[::1]:54558 -> [::1]:6650] 
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54562 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54563 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54562 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 0 Error - ConnectError
+2023-08-07 20:30:24.763 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54562 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54563 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] PartitionedProducerImpl:324 | Closing the producer failed for partition - 0
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-1, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.763 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.763 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54561 -> [::1]:6650] Connection disconnected
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-7, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-11, ] Closing producer for topic 0x7fb19f46d4d8
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-11, ] Closed producer 11
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:30:24.766 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:30:24.767 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, ] , [batching  = off]
+2023-08-07 20:30:24.767 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:30:24.767 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54563 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:24.767 INFO  [0x113db5e00] ClientConnection:263 | [[::1]:54561 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:24.767 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:24.767 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:30:24.768 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54567 -> [::1]:6650] Connected to broker
+2023-08-07 20:30:25.332 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:30:25.332 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:30:25.332 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:30:25.332 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:30:25.332 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:30:25.332 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:30:25.332 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:30:25.333 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:30:25.333 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:30:25.333 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:30:25.333 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:30:25.333 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:30:25.476 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:25.476 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:25.476 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:25.476 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:25.477 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54568 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:25.477 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54569 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:35.477 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54568 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:35.477 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54569 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54568 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 0 Error - ConnectError
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54568 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54569 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] PartitionedProducerImpl:324 | Closing the producer failed for partition - 0
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-1, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54567 -> [::1]:6650] Connection disconnected
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-7, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 ERROR [0x70000bc5a000] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-11, ] Closing producer for topic 0x7fb19f51bb28
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-11, ] Closed producer 11
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, ] , [batching  = off]
+2023-08-07 20:30:35.478 INFO  [0x70000bc5a000] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:30:35.479 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54569 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:35.479 INFO  [0x113db5e00] ClientConnection:263 | [[::1]:54567 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:35.479 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:35.479 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:30:35.480 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54572 -> [::1]:6650] Connected to broker
+2023-08-07 20:30:45.481 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54572 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:45.481 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54572 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:45.481 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:30:45.481 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54572 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:45.482 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:45.482 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:30:45.483 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54573 -> [::1]:6650] Connected to broker
+2023-08-07 20:30:55.486 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54573 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:55.487 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54573 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:55.487 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:30:55.487 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54573 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:55.487 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:55.487 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:30:55.488 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54575 -> [::1]:6650] Connected to broker
+2023-08-07 20:31:05.492 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54575 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:31:05.492 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54575 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:31:05.493 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:31:05.493 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54575 -> [::1]:6650] Destroyed connection
+2023-08-07 20:31:05.493 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:31:05.493 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:31:05.494 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54576 -> [::1]:6650] Connected to broker
+2023-08-07 20:31:15.498 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54576 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:31:15.498 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54576 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:31:15.498 ERROR [0x70000bc5a000] ClientImpl:214 | Error Checking/Getting Partition Metadata while creating producer on persistent://websight/dxp/chaos-test -- ConnectError
+2023-08-07 20:31:15.498 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54576 -> [::1]:6650] Destroyed connection
+2023-08-07 20:31:15.499 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:31:15.499 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:31:15.499 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54595 -> [::1]:6650] Connected to broker
+2023-08-07 20:31:16.068 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:31:16.069 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:31:16.209 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:31:16.209 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:31:16.210 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54596 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:31:16.212 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:31:16.212 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:31:16.212 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54597 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:31:26.211 ERROR [0x70000bc5a000] ClientConnection:573 | [[::1]:54596 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:31:26.211 ERROR [0x70000bc5a000] ClientConnection:1203 | [[::1]:54596 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:31:26.211 ERROR [0x70000bc5a000] PartitionedProducerImpl:166 | Unable to create Producer for partition - 0 Error - ConnectError
+2023-08-07 20:31:26.211 INFO  [0x70000bc5a000] ClientConnection:263 | [[::1]:54596 -> [::1]:6650] Destroyed connection
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54595 -> [::1]:6650] Connection disconnected
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ClientConnection:263 | [[::1]:54595 -> [::1]:6650] Destroyed connection
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ClientConnection:1205 | [[::1]:54597 -> [::1]:6650] Connection disconnected
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-0, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] PartitionedProducerImpl:324 | Closing the producer failed for partition - 0
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-1, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-2, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-3, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-4, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-5, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-6, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-7, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-8, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-9, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 ERROR [0x113db5e00] ProducerImpl:722 | [persistent://websight/dxp/chaos-test-partition-10, ] Failed to close producer: AlreadyClosed
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:755 | [persistent://websight/dxp/chaos-test-partition-11, ] Closing producer for topic 0x7fb19f46d7b8
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:719 | [persistent://websight/dxp/chaos-test-partition-11, ] Closed producer 11
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-10, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-9, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-8, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-7, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-6, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-5, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-4, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-3, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-2, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-1, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-0, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ProducerImpl:712 | Producer - [persistent://websight/dxp/chaos-test-partition-11, ] , [batching  = off]
+2023-08-07 20:31:26.212 INFO  [0x113db5e00] ClientConnection:263 | [[::1]:54597 -> [::1]:6650] Destroyed connection
+2023-08-07 20:31:26.213 INFO  [0x113db5e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:31:26.213 INFO  [0x113db5e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:31:26.213 INFO  [0x70000bc5a000] ClientConnection:382 | [[::1]:54598 -> [::1]:6650] Connected to broker
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-0, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-1, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-2, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-3, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-4, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-5, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-6, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-7, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-8, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-9, ] Getting connection from pool
+2023-08-07 20:31:26.790 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-10, ] Getting connection from pool
+2023-08-07 20:31:26.791 INFO  [0x70000bc5a000] HandlerBase:72 | [persistent://websight/dxp/chaos-test-partition-11, ] Getting connection from pool
+2023-08-07 20:31:26.934 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:31:26.934 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:31:26.935 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54601 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:31:26.943 INFO  [0x70000bc5a000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:31:26.943 INFO  [0x70000bc5a000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:31:26.944 INFO  [0x70000bc5a000] ClientConnection:384 | [[::1]:54602 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650

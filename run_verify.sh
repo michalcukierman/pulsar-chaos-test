@@ -9,12 +9,6 @@ if grep -q "_pulsar.ConnectError: Pulsar error: ConnectError" "./out/verificatio
     exit 1
 fi
 
-
-if grep -q "_pulsar.Timeout: Pulsar error: TimeOut" "./out/verification.log"; then
-    echo "Timeout error, execute run_verify.sh again"
-    exit 1
-fi
-
 echo "Results:"
 if grep -q "Partitions need to create" "./out/verification.log"; then
     echo "NOK Missing partitions found"

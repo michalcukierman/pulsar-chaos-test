@@ -1,0 +1,708 @@
+2023-08-07 20:27:19.136 INFO  [0x10e96fe00] Client:90 | Subscribing on Topic :websight/dxp/chaos-test
+2023-08-07 20:27:19.136 INFO  [0x10e96fe00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.136 INFO  [0x10e96fe00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:27:19.139 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54447 -> [::1]:6650] Connected to broker
+2023-08-07 20:27:19.721 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:27:19.722 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:27:19.866 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.866 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.866 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.866 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.867 INFO  [0x700008a6e000] ClientConnection:384 | [[::1]:54450 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.867 INFO  [0x700008a6e000] ClientConnection:384 | [[::1]:54451 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.870 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:19.870 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:19.871 INFO  [0x700008a6e000] ClientConnection:384 | [[::1]:54453 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:27:20.538 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4a9a8, python-consume, 2] Created consumer on broker [[::1]:54451 -> [::1]:6650] 
+2023-08-07 20:27:20.538 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 11
+2023-08-07 20:27:20.538 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4d058, python-consume, 8] Created consumer on broker [[::1]:54450 -> [::1]:6650] 
+2023-08-07 20:27:20.538 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 10
+2023-08-07 20:27:20.542 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f39ae8, python-consume, 0] Created consumer on broker [[::1]:54450 -> [::1]:6650] 
+2023-08-07 20:27:20.542 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 9
+2023-08-07 20:27:20.548 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4b2a8, python-consume, 4] Created consumer on broker [[::1]:54450 -> [::1]:6650] 
+2023-08-07 20:27:20.548 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 8
+2023-08-07 20:27:20.562 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4c158, python-consume, 6] Created consumer on broker [[::1]:54451 -> [::1]:6650] 
+2023-08-07 20:27:20.562 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 7
+2023-08-07 20:27:20.567 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4df58, python-consume, 10] Created consumer on broker [[::1]:54451 -> [::1]:6650] 
+2023-08-07 20:27:20.567 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 6
+2023-08-07 20:27:20.599 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f48e18, python-consume, 3] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:27:20.599 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 5
+2023-08-07 20:27:20.601 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4c898, python-consume, 7] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:27:20.601 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 4
+2023-08-07 20:27:20.607 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f3ad48, python-consume, 1] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:27:20.607 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 3
+2023-08-07 20:27:20.619 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4e698, python-consume, 11] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:27:20.619 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 2
+2023-08-07 20:27:20.667 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4d798, python-consume, 9] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:27:20.667 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 1
+2023-08-07 20:27:20.667 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4b9e8, python-consume, 5] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:27:20.667 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 0
+2023-08-07 20:27:20.667 INFO  [0x700008a6e000] MultiTopicsConsumerImpl:146 | Successfully Subscribed to Topics
+2023-08-07 20:27:49.663 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 4
+2023-08-07 20:27:49.663 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 0.1 s
+2023-08-07 20:27:49.683 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 8
+2023-08-07 20:27:49.683 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 0.1 s
+2023-08-07 20:27:49.707 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 0
+2023-08-07 20:27:49.707 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 0.1 s
+2023-08-07 20:27:49.767 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:27:49.786 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:27:49.807 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:27:49.949 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54447 -> [::1]:6650] Failed lookup req_id: 14 error: Retryable msg: Disconnected from server at pulsar-broker.pulsar.svc.cluster.local/10.124.3.4:6650
+2023-08-07 20:27:49.949 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result Retryable
+2023-08-07 20:27:49.949 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-4 for 100 ms, remaining time: 29900 ms
+2023-08-07 20:27:49.949 ERROR [0x700008a6e000] ClientConnection:616 | [[::1]:54447 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:27:49.949 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54447 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:27:49.950 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-8, result ConnectError
+2023-08-07 20:27:49.950 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 0.184 s
+2023-08-07 20:27:49.950 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-0, result ConnectError
+2023-08-07 20:27:49.950 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 0.184 s
+2023-08-07 20:27:50.053 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 2 @ 0x7fe2db031e00
+2023-08-07 20:27:50.054 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:27:50.054 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:27:50.054 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54474 -> [::1]:6650] Connected to broker
+2023-08-07 20:27:50.136 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:27:50.136 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:27:50.783 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4b2a8, python-consume, 4] Created consumer on broker [[::1]:54451 -> [::1]:6650] 
+2023-08-07 20:27:50.783 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4d058, python-consume, 8] Created consumer on broker [[::1]:54451 -> [::1]:6650] 
+2023-08-07 20:27:50.785 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f39ae8, python-consume, 0] Created consumer on broker [[::1]:54451 -> [::1]:6650] 
+2023-08-07 20:27:50.956 ERROR [0x700008a6e000] ClientConnection:616 | [[::1]:54450 -> [::1]:6650] Read operation failed: End of file
+2023-08-07 20:27:50.956 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54450 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:27:50.956 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54450 -> [::1]:6650] Destroyed connection
+Received message: 'b'verification-message''
+Received message: 'b'hello-pulsar-0''
+Received message: 'b'hello-pulsar-1''
+Received message: 'b'hello-pulsar-2''
+Received message: 'b'hello-pulsar-3''
+Received message: 'b'hello-pulsar-4''
+Received message: 'b'hello-pulsar-5''
+Received message: 'b'hello-pulsar-6''
+Received message: 'b'hello-pulsar-7''
+Received message: 'b'hello-pulsar-8''
+Received message: 'b'hello-pulsar-9''
+Received message: 'b'hello-pulsar-10''
+Received message: 'b'hello-pulsar-11''
+Received message: 'b'hello-pulsar-12''
+Received message: 'b'hello-pulsar-13''
+Received message: 'b'hello-pulsar-14''
+Received message: 'b'hello-pulsar-15''
+Received message: 'b'hello-pulsar-16''
+Received message: 'b'hello-pulsar-17''
+Received message: 'b'hello-pulsar-18''
+Received message: 'b'hello-pulsar-19''
+Received message: 'b'hello-pulsar-20''
+Received message: 'b'hello-pulsar-21''
+Received message: 'b'hello-pulsar-22''
+Received message: 'b'hello-pulsar-23''
+Received message: 'b'hello-pulsar-24''
+Received message: 'b'hello-pulsar-25''
+Received message: 'b'hello-pulsar-26''
+Received message: 'b'hello-pulsar-27''
+Received message: 'b'hello-pulsar-28''
+Received message: 'b'hello-pulsar-29''
+Received message: 'b'hello-pulsar-30''
+Received message: 'b'hello-pulsar-31''
+Received message: 'b'hello-pulsar-32''
+Received message: 'b'hello-pulsar-33''
+Received message: 'b'hello-pulsar-34''
+Received message: 'b'hello-pulsar-35''
+Received message: 'b'hello-pulsar-36''
+Received message: 'b'hello-pulsar-37''
+Received message: 'b'hello-pulsar-38''
+Received message: 'b'hello-pulsar-39''
+Received message: 'b'hello-pulsar-40''
+Received message: 'b'hello-pulsar-41''
+Received message: 'b'hello-pulsar-42''
+Received message: 'b'hello-pulsar-43''
+Received message: 'b'hello-pulsar-44''
+Received message: 'b'hello-pulsar-45''
+Received message: 'b'hello-pulsar-46''
+Received message: 'b'hello-pulsar-47''
+Received message: 'b'hello-pulsar-48''
+Received message: 'b'hello-pulsar-49''
+Received message: 'b'hello-pulsar-50''
+Received message: 'b'hello-pulsar-51''
+Received message: 'b'hello-pulsar-52''
+Received message: 'b'hello-pulsar-53''
+Received message: 'b'hello-pulsar-54''
+Received message: 'b'hello-pulsar-55''
+Received message: 'b'hello-pulsar-56''
+Received message: 'b'hello-pulsar-57''
+Received message: 'b'hello-pulsar-58''
+Received message: 'b'hello-pulsar-59''
+Received message: 'b'hello-pulsar-60''
+Received message: 'b'hello-pulsar-61''
+Received message: 'b'hello-pulsar-62''
+Received message: 'b'hello-pulsar-63''
+Received message: 'b'hello-pulsar-64''
+Received message: 'b'hello-pulsar-65''
+Received message: 'b'hello-pulsar-66''
+Received message: 'b'hello-pulsar-67''
+Received message: 'b'hello-pulsar-68''
+Received message: 'b'hello-pulsar-69''
+Received message: 'b'hello-pulsar-70''
+Received message: 'b'hello-pulsar-71''
+Received message: 'b'hello-pulsar-72''
+Received message: 'b'hello-pulsar-73''
+Received message: 'b'hello-pulsar-74''
+Received message: 'b'hello-pulsar-75''
+Received message: 'b'hello-pulsar-76''
+Received message: 'b'hello-pulsar-77''
+Received message: 'b'hello-pulsar-78''
+Received message: 'b'hello-pulsar-79''
+Received message: 'b'hello-pulsar-80''
+Received message: 'b'hello-pulsar-81''
+Received message: 'b'hello-pulsar-82''
+Received message: 'b'hello-pulsar-83''
+Received message: 'b'hello-pulsar-84''
+Received message: 'b'hello-pulsar-85''
+Received message: 'b'hello-pulsar-86''
+Received message: 'b'hello-pulsar-87''
+Received message: 'b'hello-pulsar-88''
+Received message: 'b'hello-pulsar-89''
+Received message: 'b'hello-pulsar-90''
+Received message: 'b'hello-pulsar-91''
+Received message: 'b'hello-pulsar-92''
+Received message: 'b'hello-pulsar-93''
+Received message: 'b'hello-pulsar-94''
+Received message: 'b'hello-pulsar-95''
+Received message: 'b'hello-pulsar-96''
+Received message: 'b'hello-pulsar-97''
+Received message: 'b'hello-pulsar-98''
+Received message: 'b'hello-pulsar-99''
+Received message: 'b'hello-pulsar-100''
+Received message: 'b'hello-pulsar-101''
+Received message: 'b'hello-pulsar-102''
+Received message: 'b'hello-pulsar-103''
+Received message: 'b'hello-pulsar-104''
+Received message: 'b'hello-pulsar-105''
+Received message: 'b'hello-pulsar-106''
+Received message: 'b'hello-pulsar-107''
+Received message: 'b'hello-pulsar-108''
+Received message: 'b'hello-pulsar-109''
+Received message: 'b'hello-pulsar-110''
+Received message: 'b'hello-pulsar-111''
+Received message: 'b'hello-pulsar-112''
+Received message: 'b'hello-pulsar-113''
+Received message: 'b'hello-pulsar-114''
+Received message: 'b'hello-pulsar-115''
+Received message: 'b'hello-pulsar-116''
+Received message: 'b'hello-pulsar-117''
+Received message: 'b'hello-pulsar-118''
+Received message: 'b'hello-pulsar-119''
+Received message: 'b'hello-pulsar-120''
+Received message: 'b'hello-pulsar-121''
+Received message: 'b'hello-pulsar-122''
+Received message: 'b'hello-pulsar-123''
+Received message: 'b'hello-pulsar-124''
+Received message: 'b'hello-pulsar-125''
+Received message: 'b'hello-pulsar-126''
+Received message: 'b'hello-pulsar-127''
+Received message: 'b'hello-pulsar-128''
+Received message: 'b'hello-pulsar-129''
+Received message: 'b'hello-pulsar-130''
+Received message: 'b'hello-pulsar-131''
+Received message: 'b'hello-pulsar-132''
+Received message: 'b'hello-pulsar-133''
+Received message: 'b'hello-pulsar-134''
+Received message: 'b'hello-pulsar-135''
+Received message: 'b'hello-pulsar-136''
+Received message: 'b'hello-pulsar-137''
+Received message: 'b'hello-pulsar-138''
+Received message: 'b'hello-pulsar-139''
+Received message: 'b'hello-pulsar-140''
+Received message: 'b'hello-pulsar-141''
+Received message: 'b'hello-pulsar-142''
+Received message: 'b'hello-pulsar-143''
+Received message: 'b'hello-pulsar-144''
+Received message: 'b'hello-pulsar-145''
+Received message: 'b'hello-pulsar-146''
+Received message: 'b'hello-pulsar-147''
+Received message: 'b'hello-pulsar-148''
+Received message: 'b'hello-pulsar-149''
+Received message: 'b'hello-pulsar-150''
+Received message: 'b'hello-pulsar-151''
+Received message: 'b'hello-pulsar-152''
+Received message: 'b'hello-pulsar-153''
+Received message: 'b'hello-pulsar-154''
+Received message: 'b'hello-pulsar-155''
+Received message: 'b'hello-pulsar-156''
+Received message: 'b'hello-pulsar-157''
+Received message: 'b'hello-pulsar-158''
+Received message: 'b'hello-pulsar-159''
+Received message: 'b'hello-pulsar-160''
+Received message: 'b'hello-pulsar-161''
+Received message: 'b'hello-pulsar-162''
+Received message: 'b'hello-pulsar-163''
+Received message: 'b'hello-pulsar-164''
+Received message: 'b'hello-pulsar-165''
+Received message: 'b'hello-pulsar-166''
+Received message: 'b'hello-pulsar-167''
+Received message: 'b'hello-pulsar-168''
+Received message: 'b'hello-pulsar-169''
+Received message: 'b'hello-pulsar-170''
+Received message: 'b'hello-pulsar-171''
+Received message: 'b'hello-pulsar-172''
+Received message: 'b'hello-pulsar-173''
+Received message: 'b'hello-pulsar-174''
+Received message: 'b'hello-pulsar-175''
+Received message: 'b'hello-pulsar-176''
+Received message: 'b'hello-pulsar-177''
+Received message: 'b'hello-pulsar-178''
+Received message: 'b'hello-pulsar-179''
+Received message: 'b'hello-pulsar-180''
+Received message: 'b'hello-pulsar-181''
+Received message: 'b'hello-pulsar-182''
+Received message: 'b'hello-pulsar-183''
+Received message: 'b'hello-pulsar-184''
+Received message: 'b'hello-pulsar-185''
+Received message: 'b'hello-pulsar-186''
+Received message: 'b'hello-pulsar-187''
+Received message: 'b'hello-pulsar-188''
+Received message: 'b'hello-pulsar-189''
+Received message: 'b'hello-pulsar-190''
+Received message: 'b'hello-pulsar-191''
+Received message: 'b'hello-pulsar-192''
+Received message: 'b'hello-pulsar-193''
+Received message: 'b'hello-pulsar-194''
+Received message: 'b'hello-pulsar-195''
+Received message: 'b'hello-pulsar-196''
+Received message: 'b'hello-pulsar-197''
+Received message: 'b'hello-pulsar-198''
+Received message: 'b'hello-pulsar-199''
+Received message: 'b'hello-pulsar-200''
+Received message: 'b'hello-pulsar-201''
+Received message: 'b'hello-pulsar-202''
+Received message: 'b'hello-pulsar-203''
+Received message: 'b'hello-pulsar-204''
+Received message: 'b'hello-pulsar-205''
+2023-08-07 20:28:03.621 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 2
+2023-08-07 20:28:03.621 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.676 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 6
+2023-08-07 20:28:03.676 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.719 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 10
+2023-08-07 20:28:03.719 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.721 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:28:03.777 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:28:03.779 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 4
+2023-08-07 20:28:03.779 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.780 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 8
+2023-08-07 20:28:03.780 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.788 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 0
+2023-08-07 20:28:03.789 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 0.1 s
+2023-08-07 20:28:03.822 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:28:03.882 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:28:03.882 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:28:03.890 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:28:04.254 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4b2a8, python-consume, 4] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:28:04.257 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4df58, python-consume, 10] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:28:04.259 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4c158, python-consume, 6] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:28:04.284 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4a9a8, python-consume, 2] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:28:04.323 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4d058, python-consume, 8] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:28:04.336 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f39ae8, python-consume, 0] Created consumer on broker [[::1]:54453 -> [::1]:6650] 
+2023-08-07 20:28:04.933 ERROR [0x700008a6e000] ClientConnection:616 | [[::1]:54451 -> [::1]:6650] Read operation failed: End of file
+2023-08-07 20:28:04.934 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54451 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:04.934 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54451 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:19.444 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 4
+2023-08-07 20:28:19.444 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.450 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 8
+2023-08-07 20:28:19.450 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.463 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 0
+2023-08-07 20:28:19.463 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.545 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:28:19.550 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:28:19.559 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 7
+2023-08-07 20:28:19.559 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.564 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:28:19.582 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 3
+2023-08-07 20:28:19.582 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.582 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 11
+2023-08-07 20:28:19.582 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.659 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:28:19.687 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:28:19.687 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:28:19.735 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54474 -> [::1]:6650] Failed lookup req_id: 26 error: Retryable msg: {"errorMsg":"Failed due to pulsar service is not ready","reqId":1025777281520128482, "remote":"pulsar-broker.pulsar.svc.cluster.local/10.124.4.3:6650", "local":"/10.124.4.2:33760"}
+2023-08-07 20:28:19.735 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result Retryable
+2023-08-07 20:28:19.735 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-4 for 184 ms, remaining time: 29816 ms
+2023-08-07 20:28:19.735 ERROR [0x700008a6e000] ClientConnection:616 | [[::1]:54474 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:28:19.736 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54474 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:19.736 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-8, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 0.188 s
+2023-08-07 20:28:19.736 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-0, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 0.188 s
+2023-08-07 20:28:19.736 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-7, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 0.184 s
+2023-08-07 20:28:19.736 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-3, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 0.184 s
+2023-08-07 20:28:19.736 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-11, result ConnectError
+2023-08-07 20:28:19.736 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 0.184 s
+2023-08-07 20:28:19.756 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 9
+2023-08-07 20:28:19.756 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.764 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 1
+2023-08-07 20:28:19.764 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.796 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 5
+2023-08-07 20:28:19.796 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.808 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54447 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:19.857 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:28:19.857 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 5 @ 0x7fe2db824800
+2023-08-07 20:28:19.857 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:19.857 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:19.858 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54484 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:19.865 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:28:19.894 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 2
+2023-08-07 20:28:19.894 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.896 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:28:19.903 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 6
+2023-08-07 20:28:19.903 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.922 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:28:19.922 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:28:19.922 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:28:19.924 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:28:19.924 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:28:19.951 INFO  [0x700008a6e000] ConsumerImpl:1202 | Broker notification of Closed consumer: 10
+2023-08-07 20:28:19.951 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 0.1 s
+2023-08-07 20:28:19.995 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:28:20.004 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:28:20.051 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:28:21.066 ERROR [0x700008a6e000] ClientConnection:616 | [[::1]:54453 -> [::1]:6650] Read operation failed: End of file
+2023-08-07 20:28:21.066 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54453 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:21.067 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54453 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:29.861 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54484 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:28:29.861 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54484 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 0.184 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 0.184 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 0.184 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 0.186 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 0.384 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 0.384 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 0.384 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 0.4 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 0.4 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 0.192 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 0.192 s
+2023-08-07 20:28:29.861 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 0.192 s
+2023-08-07 20:28:29.861 WARN  [0x700008a6e000] MultiTopicsConsumerImpl:994 | Failed to getPartitionMetadata: ConnectError
+2023-08-07 20:28:29.862 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54484 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:30.045 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:28:30.046 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:30.046 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:30.046 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:30.046 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:28:30.046 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:28:30.047 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54491 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:30.047 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:28:30.054 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:28:30.054 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:28:30.054 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:28:30.246 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:28:30.246 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:28:30.246 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:28:30.264 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:28:30.264 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:28:40.047 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54491 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:28:40.047 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54491 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:40.047 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 0.384 s
+2023-08-07 20:28:40.047 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 0.384 s
+2023-08-07 20:28:40.047 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 0.384 s
+2023-08-07 20:28:40.047 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 0.376 s
+2023-08-07 20:28:40.047 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 0.372 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 0.372 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 0.372 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 0.744 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 0.744 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 0.744 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 0.728 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 0.728 s
+2023-08-07 20:28:40.048 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54491 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:40.422 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:28:40.422 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:40.422 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:40.422 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:40.422 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:28:40.422 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:28:40.423 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54495 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:40.424 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:28:40.432 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:28:40.432 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:28:40.432 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:28:40.777 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:28:40.777 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:28:40.795 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:28:40.795 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:28:40.795 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:28:49.688 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54474 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:50.423 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54495 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:28:50.423 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54495 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:28:50.423 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 0.752 s
+2023-08-07 20:28:50.423 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 0.752 s
+2023-08-07 20:28:50.423 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 0.752 s
+2023-08-07 20:28:50.423 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 0.8 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 0.744 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 0.744 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 0.744 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 1.536 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 1.536 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 1.504 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 1.504 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 1.504 s
+2023-08-07 20:28:50.424 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54495 -> [::1]:6650] Destroyed connection
+2023-08-07 20:28:51.170 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:28:51.170 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:28:51.171 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:28:51.171 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:28:51.171 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:28:51.171 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:28:51.172 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54511 -> [::1]:6650] Connected to broker
+2023-08-07 20:28:51.176 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:28:51.176 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:28:51.176 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:28:51.224 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:28:51.928 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:28:51.928 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:28:51.928 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:28:51.963 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:28:51.963 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:29:01.176 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54511 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:01.176 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54511 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:01.176 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 1.504 s
+2023-08-07 20:29:01.176 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 1.504 s
+2023-08-07 20:29:01.176 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 1.504 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 1.6 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 1.6 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 1.6 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 1.456 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 3.2 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 3.2 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 3.2 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 3.2 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 3.2 s
+2023-08-07 20:29:01.177 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54511 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:02.636 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:29:02.637 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:02.637 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:02.637 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:02.638 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54519 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:02.684 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:29:02.684 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:29:02.684 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:29:02.778 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:29:02.778 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:29:02.778 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:29:03.195 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54519 -> [::1]:6650] Failed lookup req_id: 38 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:29:03.195 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-10, result Retryable
+2023-08-07 20:29:03.195 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-10 for 384 ms, remaining time: 29616 ms
+2023-08-07 20:29:03.195 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54519 -> [::1]:6650] Failed lookup req_id: 37 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-6, result Retryable
+2023-08-07 20:29:03.196 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-6 for 744 ms, remaining time: 29256 ms
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54519 -> [::1]:6650] Failed lookup req_id: 36 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-2, result Retryable
+2023-08-07 20:29:03.196 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-2 for 1504 ms, remaining time: 28496 ms
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54519 -> [::1]:6650] Failed lookup req_id: 35 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-5, result Retryable
+2023-08-07 20:29:03.196 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-5 for 3200 ms, remaining time: 26800 ms
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54519 -> [::1]:6650] Failed lookup req_id: 34 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-1, result Retryable
+2023-08-07 20:29:03.196 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-1 for 5824 ms, remaining time: 24176 ms
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54519 -> [::1]:6650] Failed lookup req_id: 33 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-9, result Retryable
+2023-08-07 20:29:03.196 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-9 for 12288 ms, remaining time: 17712 ms
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] ClientConnection:1521 | [[::1]:54519 -> [::1]:6650] Failed lookup req_id: 32 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-test-partition-4, result Retryable
+2023-08-07 20:29:03.196 INFO  [0x700008a6e000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-test-partition-4 for 25600 ms, remaining time: 4400 ms
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] ClientConnection:616 | [[::1]:54519 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-07 20:29:03.196 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54519 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:03.196 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54519 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:03.583 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:03.583 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:03.583 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:03.584 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54520 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:04.377 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:29:04.377 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:29:04.377 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:29:04.378 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:29:04.378 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:29:13.588 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54520 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:13.588 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54520 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 2.912 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 2.912 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 5.824 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 5.824 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 5.824 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 6.08 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 6.08 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 2.912 s
+2023-08-07 20:29:13.588 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 3.2 s
+2023-08-07 20:29:13.589 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 3.2 s
+2023-08-07 20:29:13.589 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54520 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:15.484 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:15.484 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:15.484 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:15.485 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54527 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:16.505 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:29:16.505 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:29:16.505 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:29:16.793 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:29:16.793 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:29:19.413 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:29:19.413 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:29:19.413 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:29:19.673 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:29:19.673 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:29:25.487 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54527 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:25.487 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54527 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 3.2 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 6.144 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 6.144 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 6.144 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 5.824 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 5.824 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 12.288 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 12.288 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 12.288 s
+2023-08-07 20:29:25.487 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 11.904 s
+2023-08-07 20:29:25.488 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 11.904 s
+2023-08-07 20:29:25.488 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54527 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:28.687 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:29:28.687 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:28.687 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:28.687 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:28.688 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54533 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:31.314 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:29:31.314 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:29:31.631 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:29:31.631 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:29:31.631 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:29:37.396 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:29:37.396 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:29:37.776 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:29:37.789 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:29:37.789 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:29:38.691 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54533 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:38.691 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54533 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:38.691 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 5.824 s
+2023-08-07 20:29:38.691 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 3.072 s
+2023-08-07 20:29:38.691 WARN  [0x700008a6e000] MultiTopicsConsumerImpl:994 | Failed to getPartitionMetadata: ConnectError
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 12.288 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 12.288 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 12.8 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 12.8 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 12.8 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 24.576 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 24.576 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 25.6 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 25.6 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 25.6 s
+2023-08-07 20:29:38.692 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54533 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:41.764 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:29:41.764 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:41.764 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:41.764 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:41.765 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54539 -> [::1]:6650] Connected to broker
+2023-08-07 20:29:44.520 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:29:50.982 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:29:50.982 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:29:51.492 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:29:51.492 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:29:51.492 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:29:51.769 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54539 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:29:51.770 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54539 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 6.4 s
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 12.288 s
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 25.6 s
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 25.6 s
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 24.32 s
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 24.32 s
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 24.32 s
+2023-08-07 20:29:51.770 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54539 -> [::1]:6650] Destroyed connection
+2023-08-07 20:29:58.173 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:29:58.173 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:29:58.173 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:29:58.173 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:29:58.174 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54559 -> [::1]:6650] Connected to broker
+2023-08-07 20:30:03.273 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:30:03.273 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:30:04.059 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:30:04.293 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:30:04.293 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:30:04.293 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:30:08.175 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54559 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:08.175 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54559 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 12.16 s
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d058, python-consume, 8] Schedule reconnection in 51.2 s
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f39ae8, python-consume, 0] Schedule reconnection in 51.2 s
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4d798, python-consume, 9] Schedule reconnection in 25.6 s
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c898, python-consume, 7] Schedule reconnection in 48.64 s
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f48e18, python-consume, 3] Schedule reconnection in 48.64 s
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4e698, python-consume, 11] Schedule reconnection in 48.64 s
+2023-08-07 20:30:08.175 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54559 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:16.095 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:30:16.095 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-07 20:30:16.095 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:16.095 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-07 20:30:16.095 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:30:16.095 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:30:16.097 INFO  [0x700008a6e000] ClientConnection:382 | [[::1]:54564 -> [::1]:6650] Connected to broker
+2023-08-07 20:30:16.666 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:30:16.666 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:16.666 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:16.667 INFO  [0x700008a6e000] ClientConnection:384 | [[::1]:54565 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:17.373 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:30:17.374 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:30:17.514 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:30:17.514 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:17.514 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:17.515 INFO  [0x700008a6e000] ClientConnection:384 | [[::1]:54566 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:20.337 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:30:26.671 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54565 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:26.671 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54565 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:26.671 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4a9a8, python-consume, 2] Schedule reconnection in 47.616 s
+2023-08-07 20:30:26.671 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4c158, python-consume, 6] Schedule reconnection in 47.616 s
+2023-08-07 20:30:26.671 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4df58, python-consume, 10] Schedule reconnection in 47.616 s
+2023-08-07 20:30:26.671 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b2a8, python-consume, 4] Schedule reconnection in 23.808 s
+2023-08-07 20:30:26.671 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54565 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:27.520 ERROR [0x700008a6e000] ClientConnection:573 | [[::1]:54566 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
+2023-08-07 20:30:27.520 ERROR [0x700008a6e000] ClientConnection:1203 | [[::1]:54566 -> [::1]:6650] Connection closed with ConnectError
+2023-08-07 20:30:27.520 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f4b9e8, python-consume, 5] Schedule reconnection in 48.64 s
+2023-08-07 20:30:27.520 INFO  [0x700008a6e000] HandlerBase:149 | [0x7fe2d9f3ad48, python-consume, 1] Schedule reconnection in 48.64 s
+2023-08-07 20:30:27.520 INFO  [0x700008a6e000] ClientConnection:263 | [[::1]:54566 -> [::1]:6650] Destroyed connection
+2023-08-07 20:30:33.776 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d798, python-consume, 9] Getting connection from pool
+2023-08-07 20:30:33.917 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:30:33.917 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:33.917 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:33.918 INFO  [0x700008a6e000] ClientConnection:384 | [[::1]:54571 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:34.490 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4d798, python-consume, 9] Created consumer on broker [[::1]:54571 -> [::1]:6650] 
+2023-08-07 20:30:50.480 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b2a8, python-consume, 4] Getting connection from pool
+2023-08-07 20:30:50.621 INFO  [0x700008a6e000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650 use_count: -1 @ 0x0
+2023-08-07 20:30:50.621 INFO  [0x700008a6e000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-07 20:30:50.622 INFO  [0x700008a6e000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:50.623 INFO  [0x700008a6e000] ClientConnection:384 | [[::1]:54574 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-07 20:30:51.200 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4b2a8, python-consume, 4] Created consumer on broker [[::1]:54574 -> [::1]:6650] 
+2023-08-07 20:30:56.820 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c898, python-consume, 7] Getting connection from pool
+2023-08-07 20:30:56.820 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f48e18, python-consume, 3] Getting connection from pool
+2023-08-07 20:30:56.820 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4e698, python-consume, 11] Getting connection from pool
+2023-08-07 20:30:57.112 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4c898, python-consume, 7] Created consumer on broker [[::1]:54571 -> [::1]:6650] 
+2023-08-07 20:30:57.116 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f48e18, python-consume, 3] Created consumer on broker [[::1]:54571 -> [::1]:6650] 
+2023-08-07 20:30:57.121 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4e698, python-consume, 11] Created consumer on broker [[::1]:54571 -> [::1]:6650] 
+2023-08-07 20:30:59.378 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4d058, python-consume, 8] Getting connection from pool
+2023-08-07 20:30:59.378 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f39ae8, python-consume, 0] Getting connection from pool
+2023-08-07 20:30:59.679 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4d058, python-consume, 8] Created consumer on broker [[::1]:54574 -> [::1]:6650] 
+2023-08-07 20:30:59.679 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f39ae8, python-consume, 0] Created consumer on broker [[::1]:54574 -> [::1]:6650] 
+2023-08-07 20:31:14.292 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4a9a8, python-consume, 2] Getting connection from pool
+2023-08-07 20:31:14.292 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4c158, python-consume, 6] Getting connection from pool
+2023-08-07 20:31:14.292 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4df58, python-consume, 10] Getting connection from pool
+2023-08-07 20:31:14.583 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4a9a8, python-consume, 2] Created consumer on broker [[::1]:54574 -> [::1]:6650] 
+2023-08-07 20:31:14.584 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4c158, python-consume, 6] Created consumer on broker [[::1]:54574 -> [::1]:6650] 
+2023-08-07 20:31:14.589 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4df58, python-consume, 10] Created consumer on broker [[::1]:54574 -> [::1]:6650] 
+2023-08-07 20:31:16.161 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f4b9e8, python-consume, 5] Getting connection from pool
+2023-08-07 20:31:16.161 INFO  [0x700008a6e000] HandlerBase:72 | [0x7fe2d9f3ad48, python-consume, 1] Getting connection from pool
+2023-08-07 20:31:16.452 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f4b9e8, python-consume, 5] Created consumer on broker [[::1]:54571 -> [::1]:6650] 
+2023-08-07 20:31:16.454 INFO  [0x700008a6e000] ConsumerImpl:282 | [0x7fe2d9f3ad48, python-consume, 1] Created consumer on broker [[::1]:54571 -> [::1]:6650] 
