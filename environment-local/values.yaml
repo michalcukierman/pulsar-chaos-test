@@ -1,0 +1,39 @@
+defaultPulsarImageTag: 3.0.0
+## deployed withh emptyDir
+volumes:
+  persistence: false
+
+# disabled AntiAffinity
+affinity:
+  anti_affinity: false
+
+# disable auto recovery
+components:
+  autorecovery: false
+  pulsar_manager: false
+  monitoring: false
+
+zookeeper:
+  replicaCount: 1
+
+bookkeeper:
+  replicaCount: 1
+
+broker:
+  replicaCount: 3
+  configData:
+    autoSkipNonRecoverableData: "true"
+    managedLedgerDefaultEnsembleSize: "1"
+    managedLedgerDefaultWriteQuorum: "1"
+    managedLedgerDefaultAckQuorum: "1"
+
+proxy:
+  replicaCount: 1
+  ports:
+    # Pulsar on MicroK8S cannot open port 80
+    http: "8080"
+
+toolset:
+  configData:
+    # Pulsar on MicroK8S cannot open port 80
+    webServiceUrl: "http://pulsar-proxy:8080/"

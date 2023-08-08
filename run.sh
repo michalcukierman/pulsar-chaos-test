@@ -29,8 +29,8 @@ kubectl delete pod pulsar-broker-0 -n pulsar
 kubectl delete pod pulsar-broker-1 -n pulsar
 kubectl delete pod pulsar-broker-2 -n pulsar
 
-echo "Waiting (180s) for the brokers to start"
-sleep 180
+echo "Waiting (300s) for the brokers to start"
+sleep 300
 
 echo "Killing producer and consumer"
 kill -9 $PRODUCER_PID

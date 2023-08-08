@@ -25,3 +25,8 @@ if grep -q verification-message "./out/verification.log"; then
 else 
   echo "NOK 'verification-message' is not present in 'chaos-test' topic after restart"
 fi
+
+echo "Messages available before restart:"
+cat out/consumer.log | grep "hello-pulsar" | wc -l
+echo "Messages available after restart:"
+cat out/verification.log | grep "hello-pulsar" | wc -l
