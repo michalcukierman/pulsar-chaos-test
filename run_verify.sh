@@ -27,6 +27,6 @@ else
 fi
 
 echo "Messages available before restart:"
-cat out/consumer.log | grep "hello-pulsar" | wc -l
+cat out/consumer.log | grep "hello-pulsar" | uniq | wc -l
 echo "Messages available after restart:"
-cat out/verification.log | grep "hello-pulsar" | wc -l
+cat out/verification.log | grep "hello-pulsar" | uniq | wc -l
