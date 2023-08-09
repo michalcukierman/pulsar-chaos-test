@@ -21,7 +21,7 @@ CONSUMER_PID=$!
 echo "Starting producer"
 python3 producer.py &> out/producer.log &
 PRODUCER_PID=$! 
-echo "Waiting (30s) for the messages to be produced to chaos-test"
+echo "Waiting (30s) for the messages to be produced to chaos-topic"
 sleep 30
 
 echo "Restarting broker pods"
@@ -29,8 +29,8 @@ kubectl delete pod pulsar-broker-0 -n pulsar
 kubectl delete pod pulsar-broker-1 -n pulsar
 kubectl delete pod pulsar-broker-2 -n pulsar
 
-echo "Waiting (300s) for the brokers to start"
-sleep 300
+echo "Waiting (30s) for the brokers to start"
+sleep 30
 
 echo "Killing producer and consumer"
 kill -9 $PRODUCER_PID

@@ -1,4 +1,4 @@
-defaultPulsarImageTag: 3.0.1
+defaultPulsarImageTag: 3.0.0
 ## deployed withh emptyDir
 volumes:
   persistence: false
@@ -14,18 +14,18 @@ components:
   monitoring: false
 
 zookeeper:
-  replicaCount: 1
+  replicaCount: 3
 
 bookkeeper:
-  replicaCount: 1
+  replicaCount: 3
 
 broker:
   replicaCount: 3
   configData:
     autoSkipNonRecoverableData: "true"
-    managedLedgerDefaultEnsembleSize: "1"
-    managedLedgerDefaultWriteQuorum: "1"
-    managedLedgerDefaultAckQuorum: "1"
+    managedLedgerDefaultEnsembleSize: "2"
+    managedLedgerDefaultWriteQuorum: "2"
+    managedLedgerDefaultAckQuorum: "2"
 
 proxy:
   replicaCount: 1

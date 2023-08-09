@@ -8,8 +8,28 @@ pip3 install pulsar-client==3.2.0
 ```
 
 ## Running
-1. Make sure that kubectl is configured with valid K8S cluster with Pulsar installed
-2. Create partitioned topic `chaos-test`
+1. Create cluster-1 on GCP 
+
+- Use default settings and three `e2-standard-4` nodes
+- Use us-central1-c zone
+
+
+2. Configure kubectl context.
+
+Example command line:
+```
+gcloud container clusters get-credentials cluster-1 --region us-central1-c --project <your project id>
+```
+
+3. Install pulsar
+
+```
+cd environment-gcp
+sh deploy.sh
+cd ..
+```
+
+3. Create partitioned topic `chaos-topic`
 
  ```
 sh run_prepare_topic.sh

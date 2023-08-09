@@ -15,18 +15,18 @@ if grep -q "Partitions need to create" "./out/verification.log"; then
 fi
 
 if grep -q verification-message "./out/consumer.log"; then
-  echo "OK 'verification-message' was present in 'chaos-test' topic before restart"
+  echo "OK 'verification-message' was present in 'chaos-topic' topic before restart"
 else 
-  echo "NOK 'verification-message' was not present in 'chaos-test' topic before restart"
+  echo "NOK 'verification-message' was not present in 'chaos-topic' topic before restart"
 fi
 
 if grep -q verification-message "./out/verification.log"; then
-  echo "OK 'verification-message' is present in 'chaos-test' topic after restart"
+  echo "OK 'verification-message' is present in 'chaos-topic' topic after restart"
 else 
-  echo "NOK 'verification-message' is not present in 'chaos-test' topic after restart"
+  echo "NOK 'verification-message' is not present in 'chaos-topic' topic after restart"
 fi
 
 echo "Messages available before restart:"
-cat out/consumer.log | grep "hello-pulsar" | uniq | wc -l
+cat out/consumer.log | grep "Received message" | grep "hello-pulsar" | sort | uniq | wc -l
 echo "Messages available after restart:"
-cat out/verification.log | grep "hello-pulsar" | uniq | wc -l
+cat out/verification.log | grep "Received message" | grep "hello-pulsar" | sort | uniq | wc -l

@@ -73,7 +73,7 @@ function deletePartitionedTopic {
   execInToolset "bin/pulsar-admin topics list-partitioned-topics ${tenantName}/${namespaceName}" | grep "${topicName}"
   local exists=$?
   if [ $exists -eq 0 ]; then
-    echo "Topic 'chaos-test' already exists. Deleting forcefully"
+    echo "Topic 'chaos-topic' already exists. Deleting forcefully"
     execInToolset "bin/pulsar-admin topics delete-partitioned-topic persistent://${tenant}/${namespace}/${topicName} --force"
   fi
 }
@@ -82,8 +82,8 @@ function deletePartitionedTopic {
 createTenant $tenant
 createNamespace $tenant $namespace
 
-# Delete old chaos-test topic
-deletePartitionedTopic $tenant $namespace chaos-test 
-# Create chaos-test topic
-createPartitionedTopic $tenant $namespace chaos-test 12
-execInToolset "bin/pulsar-admin topics set-retention persistent://${tenant}/${namespace}/chaos-test --size -1 --time -1"
+# Delete old chaos-topic topic
+deletePartitionedTopic $tenant $namespace chaos-topic 
+# Create chaos-topic topic
+createPartitionedTopic $tenant $namespace chaos-topic 12
+execInToolset "bin/pulsar-admin topics set-retention persistent://${tenant}/${namespace}/chaos-topic --size -1 --time -1"
