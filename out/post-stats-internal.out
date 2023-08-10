@@ -1,0 +1,443 @@
+{
+  "metadata" : {
+    "partitions" : 12,
+    "deleted" : false
+  },
+  "partitions" : {
+    "persistent://websight/dxp/chaos-topic-partition-10" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.72Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "609:2",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 633,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "609:2",
+          "readPosition" : "609:3",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.764Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-3" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.623Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "594:6",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 630,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "594:6",
+          "readPosition" : "594:7",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.687Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-11" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.62Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "595:6",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 626,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "595:6",
+          "readPosition" : "595:7",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.695Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-2" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.702Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "611:2",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 631,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "611:2",
+          "readPosition" : "611:3",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.76Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-1" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.621Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "613:2",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 628,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "613:2",
+          "readPosition" : "613:3",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.696Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-7" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.621Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "596:6",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 629,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "596:6",
+          "readPosition" : "596:7",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.687Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-6" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.704Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "610:3",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 632,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "610:3",
+          "readPosition" : "610:4",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.758Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-5" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 0,
+      "totalSize" : 0,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.621Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "617:3",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 627,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "617:3",
+          "readPosition" : "617:4",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : 0,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.687Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    },
+    "persistent://websight/dxp/chaos-topic-partition-9" : {
+      "entriesAddedCounter" : 0,
+      "numberOfEntries" : 30,
+      "totalSize" : 1431,
+      "currentLedgerEntries" : 0,
+      "currentLedgerSize" : 0,
+      "lastLedgerCreatedTimestamp" : "2023-08-10T10:57:24.617Z",
+      "waitingCursorsCount" : 0,
+      "pendingAddEntriesCount" : 0,
+      "lastConfirmedEntry" : "618:3",
+      "state" : "LedgerOpened",
+      "ledgers" : [ {
+        "ledgerId" : 564,
+        "entries" : 26,
+        "size" : 1239,
+        "offloaded" : false,
+        "underReplicated" : false
+      }, {
+        "ledgerId" : 618,
+        "entries" : 4,
+        "size" : 192,
+        "offloaded" : false,
+        "underReplicated" : false
+      }, {
+        "ledgerId" : 625,
+        "entries" : 0,
+        "size" : 0,
+        "offloaded" : false,
+        "underReplicated" : false
+      } ],
+      "cursors" : {
+        "python-consume" : {
+          "markDeletePosition" : "618:2",
+          "readPosition" : "618:3",
+          "waitingReadOp" : false,
+          "pendingReadOps" : 0,
+          "messagesConsumedCounter" : -1,
+          "cursorLedger" : -1,
+          "cursorLedgerLastEntry" : -1,
+          "individuallyDeletedMessages" : "[]",
+          "lastLedgerSwitchTimestamp" : "2023-08-10T10:57:24.687Z",
+          "state" : "NoLedger",
+          "active" : false,
+          "numberOfEntriesSinceFirstNotAckedMessage" : 1,
+          "totalNonContiguousDeletedMessagesRange" : 0,
+          "subscriptionHavePendingRead" : false,
+          "subscriptionHavePendingReplayRead" : false,
+          "properties" : { }
+        }
+      },
+      "schemaLedgers" : [ ],
+      "compactedLedger" : {
+        "ledgerId" : -1,
+        "entries" : -1,
+        "size" : -1,
+        "offloaded" : false,
+        "underReplicated" : false
+      }
+    }
+  }
+}

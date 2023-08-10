@@ -1,53 +1,131 @@
-2023-08-10 12:03:07.066 INFO  [0x1088ebe00] Client:90 | Subscribing on Topic :websight/dxp/chaos-topic
-2023-08-10 12:03:07.066 INFO  [0x1088ebe00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-10 12:03:07.066 INFO  [0x1088ebe00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
-2023-08-10 12:03:07.068 INFO  [0x700000e06000] ClientConnection:382 | [[::1]:60224 -> [::1]:6650] Connected to broker
-2023-08-10 12:03:07.774 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e658ac8, python-verify-0, 0] Getting connection from pool
-2023-08-10 12:03:07.774 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e658fe8, python-verify-0, 1] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e659b58, python-verify-0, 2] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65a2b8, python-verify-0, 3] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65aa98, python-verify-0, 4] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65b1d8, python-verify-0, 5] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65b948, python-verify-0, 6] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65c088, python-verify-0, 7] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65c848, python-verify-0, 8] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65cf88, python-verify-0, 9] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65d748, python-verify-0, 10] Getting connection from pool
-2023-08-10 12:03:07.775 INFO  [0x700000e06000] HandlerBase:72 | [0x7fc34e65de88, python-verify-0, 11] Getting connection from pool
-2023-08-10 12:03:08.383 INFO  [0x700000e06000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-10 12:03:08.383 INFO  [0x700000e06000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-10 12:03:08.385 INFO  [0x700000e06000] ClientConnection:384 | [[::1]:60225 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-10 12:03:08.402 INFO  [0x700000e06000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-10 12:03:08.402 INFO  [0x700000e06000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-10 12:03:08.404 INFO  [0x700000e06000] ClientConnection:384 | [[::1]:60226 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-10 12:03:08.578 INFO  [0x700000e06000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-10 12:03:08.579 INFO  [0x700000e06000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-10 12:03:08.579 INFO  [0x700000e06000] ClientConnection:384 | [[::1]:60227 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-10 12:03:09.100 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65b948, python-verify-0, 6] Created consumer on broker [[::1]:60225 -> [::1]:6650] 
-2023-08-10 12:03:09.101 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 11
-2023-08-10 12:03:09.101 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65d748, python-verify-0, 10] Created consumer on broker [[::1]:60225 -> [::1]:6650] 
-2023-08-10 12:03:09.101 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 10
-2023-08-10 12:03:09.101 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e659b58, python-verify-0, 2] Created consumer on broker [[::1]:60225 -> [::1]:6650] 
-2023-08-10 12:03:09.101 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 9
-2023-08-10 12:03:09.103 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65cf88, python-verify-0, 9] Created consumer on broker [[::1]:60225 -> [::1]:6650] 
-2023-08-10 12:03:09.103 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 8
-2023-08-10 12:03:09.103 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65b1d8, python-verify-0, 5] Created consumer on broker [[::1]:60225 -> [::1]:6650] 
-2023-08-10 12:03:09.103 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 7
-2023-08-10 12:03:09.112 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e658fe8, python-verify-0, 1] Created consumer on broker [[::1]:60225 -> [::1]:6650] 
-2023-08-10 12:03:09.112 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 6
-2023-08-10 12:03:09.122 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65aa98, python-verify-0, 4] Created consumer on broker [[::1]:60226 -> [::1]:6650] 
-2023-08-10 12:03:09.122 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 5
-2023-08-10 12:03:09.129 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65c848, python-verify-0, 8] Created consumer on broker [[::1]:60226 -> [::1]:6650] 
-2023-08-10 12:03:09.129 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 4
-2023-08-10 12:03:09.178 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e658ac8, python-verify-0, 0] Created consumer on broker [[::1]:60226 -> [::1]:6650] 
-2023-08-10 12:03:09.178 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 3
-2023-08-10 12:03:09.327 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65de88, python-verify-0, 11] Created consumer on broker [[::1]:60227 -> [::1]:6650] 
-2023-08-10 12:03:09.327 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 2
-2023-08-10 12:03:09.327 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65a2b8, python-verify-0, 3] Created consumer on broker [[::1]:60227 -> [::1]:6650] 
-2023-08-10 12:03:09.327 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 1
-2023-08-10 12:03:09.332 INFO  [0x700000e06000] ConsumerImpl:282 | [0x7fc34e65c088, python-verify-0, 7] Created consumer on broker [[::1]:60227 -> [::1]:6650] 
-2023-08-10 12:03:09.332 INFO  [0x700000e06000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 0
-2023-08-10 12:03:09.332 INFO  [0x700000e06000] MultiTopicsConsumerImpl:146 | Successfully Subscribed to Topics
+2023-08-10 12:57:31.187 INFO  [0x107039e00] Client:90 | Subscribing on Topic :websight/dxp/chaos-topic
+2023-08-10 12:57:31.187 INFO  [0x107039e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:31.187 INFO  [0x107039e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:31.189 WARN  [0x70000b5da000] ClientConnection:450 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.189 ERROR [0x70000b5da000] ClientConnection:475 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.189 INFO  [0x70000b5da000] ClientConnection:1205 | [<none> -> pulsar://localhost:6650] Connection disconnected
+2023-08-10 12:57:31.189 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-partition-metadata-persistent://websight/dxp/chaos-topic for 100 ms, remaining time: 29900 ms
+2023-08-10 12:57:31.189 INFO  [0x70000b5da000] ClientConnection:263 | [<none> -> pulsar://localhost:6650] Destroyed connection
+2023-08-10 12:57:31.289 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:31.290 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:31.290 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:31.290 WARN  [0x70000b5da000] ClientConnection:450 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.291 ERROR [0x70000b5da000] ClientConnection:475 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.291 INFO  [0x70000b5da000] ClientConnection:1205 | [<none> -> pulsar://localhost:6650] Connection disconnected
+2023-08-10 12:57:31.291 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-partition-metadata-persistent://websight/dxp/chaos-topic for 198 ms, remaining time: 29702 ms
+2023-08-10 12:57:31.291 INFO  [0x70000b5da000] ClientConnection:263 | [<none> -> pulsar://localhost:6650] Destroyed connection
+2023-08-10 12:57:31.491 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:31.491 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:31.491 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:31.492 WARN  [0x70000b5da000] ClientConnection:450 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.492 ERROR [0x70000b5da000] ClientConnection:475 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.492 INFO  [0x70000b5da000] ClientConnection:1205 | [<none> -> pulsar://localhost:6650] Connection disconnected
+2023-08-10 12:57:31.492 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-partition-metadata-persistent://websight/dxp/chaos-topic for 396 ms, remaining time: 29306 ms
+2023-08-10 12:57:31.493 INFO  [0x70000b5da000] ClientConnection:263 | [<none> -> pulsar://localhost:6650] Destroyed connection
+2023-08-10 12:57:31.889 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:31.889 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:31.889 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:31.890 WARN  [0x70000b5da000] ClientConnection:450 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.890 ERROR [0x70000b5da000] ClientConnection:475 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 12:57:31.890 INFO  [0x70000b5da000] ClientConnection:1205 | [<none> -> pulsar://localhost:6650] Connection disconnected
+2023-08-10 12:57:31.890 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-partition-metadata-persistent://websight/dxp/chaos-topic for 736 ms, remaining time: 28570 ms
+2023-08-10 12:57:31.890 INFO  [0x70000b5da000] ClientConnection:263 | [<none> -> pulsar://localhost:6650] Destroyed connection
+2023-08-10 12:57:32.631 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:32.631 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:32.631 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:32.633 INFO  [0x70000b5da000] ClientConnection:382 | [[::1]:60843 -> [::1]:6650] Connected to broker
+2023-08-10 12:57:33.219 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859bb18, python-verify-0, 0] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859bb78, python-verify-0, 1] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859ca98, python-verify-0, 2] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859d1f8, python-verify-0, 3] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859d9d8, python-verify-0, 4] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859e118, python-verify-0, 5] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859e888, python-verify-0, 6] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859efc8, python-verify-0, 7] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859f788, python-verify-0, 8] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a859fec8, python-verify-0, 9] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a85a0688, python-verify-0, 10] Getting connection from pool
+2023-08-10 12:57:33.220 INFO  [0x70000b5da000] HandlerBase:72 | [0x7fa7a85a0dc8, python-verify-0, 11] Getting connection from pool
+2023-08-10 12:57:33.373 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:33.373 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 12:57:33.374 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:33.374 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 12:57:33.375 INFO  [0x70000b5da000] ClientConnection:384 | [[::1]:60844 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 12:57:33.375 INFO  [0x70000b5da000] ClientConnection:384 | [[::1]:60845 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 12:57:33.444 ERROR [0x70000b5da000] ClientConnection:1521 | [[::1]:60843 -> [::1]:6650] Failed lookup req_id: 6 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-10 12:57:33.444 ERROR [0x70000b5da000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result Retryable
+2023-08-10 12:57:33.444 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-4 for 1520 ms, remaining time: 28480 ms
+2023-08-10 12:57:33.444 ERROR [0x70000b5da000] ClientConnection:1521 | [[::1]:60843 -> [::1]:6650] Failed lookup req_id: 10 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-10 12:57:33.444 ERROR [0x70000b5da000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result Retryable
+2023-08-10 12:57:33.444 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-8 for 3104 ms, remaining time: 26896 ms
+2023-08-10 12:57:33.444 ERROR [0x70000b5da000] ClientConnection:1521 | [[::1]:60843 -> [::1]:6650] Failed lookup req_id: 2 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-10 12:57:33.445 ERROR [0x70000b5da000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result Retryable
+2023-08-10 12:57:33.445 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-0 for 5888 ms, remaining time: 24112 ms
+2023-08-10 12:57:33.445 ERROR [0x70000b5da000] ClientConnection:616 | [[::1]:60843 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 12:57:33.445 ERROR [0x70000b5da000] ClientConnection:1203 | [[::1]:60843 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 12:57:33.445 INFO  [0x70000b5da000] ClientConnection:263 | [[::1]:60843 -> [::1]:6650] Destroyed connection
+2023-08-10 12:57:33.981 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859ca98, python-verify-0, 2] Created consumer on broker [[::1]:60845 -> [::1]:6650] 
+2023-08-10 12:57:33.981 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 11
+2023-08-10 12:57:33.989 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859e888, python-verify-0, 6] Created consumer on broker [[::1]:60845 -> [::1]:6650] 
+2023-08-10 12:57:33.989 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 10
+2023-08-10 12:57:33.991 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a85a0688, python-verify-0, 10] Created consumer on broker [[::1]:60845 -> [::1]:6650] 
+2023-08-10 12:57:33.991 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 9
+2023-08-10 12:57:34.034 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859bb78, python-verify-0, 1] Created consumer on broker [[::1]:60844 -> [::1]:6650] 
+2023-08-10 12:57:34.034 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 8
+2023-08-10 12:57:34.034 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859efc8, python-verify-0, 7] Created consumer on broker [[::1]:60844 -> [::1]:6650] 
+2023-08-10 12:57:34.034 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 7
+2023-08-10 12:57:34.034 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859e118, python-verify-0, 5] Created consumer on broker [[::1]:60844 -> [::1]:6650] 
+2023-08-10 12:57:34.035 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 6
+2023-08-10 12:57:34.035 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859fec8, python-verify-0, 9] Created consumer on broker [[::1]:60844 -> [::1]:6650] 
+2023-08-10 12:57:34.035 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 5
+2023-08-10 12:57:34.035 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859d1f8, python-verify-0, 3] Created consumer on broker [[::1]:60844 -> [::1]:6650] 
+2023-08-10 12:57:34.035 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 4
+2023-08-10 12:57:34.035 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a85a0dc8, python-verify-0, 11] Created consumer on broker [[::1]:60844 -> [::1]:6650] 
+2023-08-10 12:57:34.035 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 3
+2023-08-10 12:57:34.967 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:34.967 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:34.967 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:34.969 INFO  [0x70000b5da000] ClientConnection:382 | [[::1]:60846 -> [::1]:6650] Connected to broker
+2023-08-10 12:57:35.604 ERROR [0x70000b5da000] ClientConnection:1521 | [[::1]:60846 -> [::1]:6650] Failed lookup req_id: 14 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DnsResolveContext$SearchDomainUnknownHostException: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] and search domain query for configured domains failed as well: [pulsar.svc.cluster.local, svc.cluster.local, cluster.local, us-central1-c.c.websight-dxp-development.internal, c.websight-dxp-development.internal, google.internal]
+2023-08-10 12:57:35.604 ERROR [0x70000b5da000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result Retryable
+2023-08-10 12:57:35.604 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-4 for 11904 ms, remaining time: 16576 ms
+2023-08-10 12:57:35.605 ERROR [0x70000b5da000] ClientConnection:616 | [[::1]:60846 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 12:57:35.605 ERROR [0x70000b5da000] ClientConnection:1203 | [[::1]:60846 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 12:57:35.605 INFO  [0x70000b5da000] ClientConnection:263 | [[::1]:60846 -> [::1]:6650] Destroyed connection
+2023-08-10 12:57:36.550 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:36.550 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:36.550 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:36.551 INFO  [0x70000b5da000] ClientConnection:382 | [[::1]:60847 -> [::1]:6650] Connected to broker
+2023-08-10 12:57:37.133 ERROR [0x70000b5da000] ClientConnection:1521 | [[::1]:60847 -> [::1]:6650] Failed lookup req_id: 15 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] after 2 queries 
+2023-08-10 12:57:37.133 ERROR [0x70000b5da000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result Retryable
+2023-08-10 12:57:37.133 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-8 for 23296 ms, remaining time: 3600 ms
+2023-08-10 12:57:37.133 ERROR [0x70000b5da000] ClientConnection:616 | [[::1]:60847 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 12:57:37.134 ERROR [0x70000b5da000] ClientConnection:1203 | [[::1]:60847 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 12:57:37.134 INFO  [0x70000b5da000] ClientConnection:263 | [[::1]:60847 -> [::1]:6650] Destroyed connection
+2023-08-10 12:57:39.335 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:39.335 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:39.335 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:39.348 INFO  [0x70000b5da000] ClientConnection:382 | [[::1]:60848 -> [::1]:6650] Connected to broker
+2023-08-10 12:57:39.929 ERROR [0x70000b5da000] ClientConnection:1521 | [[::1]:60848 -> [::1]:6650] Failed lookup req_id: 16 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local' [A(1)] after 2 queries 
+2023-08-10 12:57:39.929 ERROR [0x70000b5da000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result Retryable
+2023-08-10 12:57:39.929 INFO  [0x70000b5da000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-0 for 24112 ms, remaining time: 0 ms
+2023-08-10 12:57:39.929 ERROR [0x70000b5da000] ClientConnection:616 | [[::1]:60848 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 12:57:39.929 ERROR [0x70000b5da000] ClientConnection:1203 | [[::1]:60848 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 12:57:39.929 INFO  [0x70000b5da000] ClientConnection:263 | [[::1]:60848 -> [::1]:6650] Destroyed connection
+2023-08-10 12:57:47.514 INFO  [0x70000b5da000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 12:57:47.514 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:47.514 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 12:57:47.515 INFO  [0x70000b5da000] ClientConnection:382 | [[::1]:60849 -> [::1]:6650] Connected to broker
+2023-08-10 12:57:48.481 INFO  [0x70000b5da000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 12:57:48.481 INFO  [0x70000b5da000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 12:57:48.483 INFO  [0x70000b5da000] ClientConnection:384 | [[::1]:60850 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 12:57:49.163 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859d9d8, python-verify-0, 4] Created consumer on broker [[::1]:60850 -> [::1]:6650] 
+2023-08-10 12:57:49.163 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 2
+2023-08-10 12:58:00.741 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859f788, python-verify-0, 8] Created consumer on broker [[::1]:60850 -> [::1]:6650] 
+2023-08-10 12:58:00.741 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 1
+2023-08-10 12:58:04.347 INFO  [0x70000b5da000] ConsumerImpl:282 | [0x7fa7a859bb18, python-verify-0, 0] Created consumer on broker [[::1]:60850 -> [::1]:6650] 
+2023-08-10 12:58:04.348 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 0
+2023-08-10 12:58:04.348 INFO  [0x70000b5da000] MultiTopicsConsumerImpl:146 | Successfully Subscribed to Topics
 Received message: 'b'hello-pulsar-8''
 Received message: 'b'hello-pulsar-20''
 Received message: 'b'hello-pulsar-32''
@@ -71,6 +149,13 @@ Received message: 'b'hello-pulsar-236''
 Received message: 'b'hello-pulsar-248''
 Received message: 'b'hello-pulsar-260''
 Received message: 'b'hello-pulsar-272''
+Received message: 'b'hello-pulsar-284''
+Received message: 'b'hello-pulsar-296''
+Received message: 'b'hello-pulsar-308''
+Received message: 'b'hello-pulsar-320''
+Received message: 'b'hello-pulsar-332''
+Received message: 'b'hello-pulsar-344''
+Received message: 'b'hello-pulsar-356''
 Traceback (most recent call last):
   File "/Users/michalcukierman/IdeaProjects/websight-io/chaos_test/consumer_verify.py", line 9, in <module>
     msg = consumer.receive(5000)
@@ -79,35 +164,35 @@ Traceback (most recent call last):
     msg = self._consumer.receive(timeout_millis)
           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 _pulsar.Timeout: Pulsar error: TimeOut
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65de88, python-verify-0, 11] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.365 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65de88, python-verify-0, 11] Closed consumer for race condition: 11
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e659b58, python-verify-0, 2] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.365 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e659b58, python-verify-0, 2] Closed consumer for race condition: 2
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65d748, python-verify-0, 10] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.365 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65d748, python-verify-0, 10] Closed consumer for race condition: 10
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65b1d8, python-verify-0, 5] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.365 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65b1d8, python-verify-0, 5] Closed consumer for race condition: 5
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65c088, python-verify-0, 7] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.365 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65c088, python-verify-0, 7] Closed consumer for race condition: 7
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65b948, python-verify-0, 6] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.365 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65b948, python-verify-0, 6] Closed consumer for race condition: 6
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65a2b8, python-verify-0, 3] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.365 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65a2b8, python-verify-0, 3] Closed consumer for race condition: 3
-2023-08-10 12:03:14.365 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65aa98, python-verify-0, 4] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65aa98, python-verify-0, 4] Closed consumer for race condition: 4
-2023-08-10 12:03:14.366 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65c848, python-verify-0, 8] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65c848, python-verify-0, 8] Closed consumer for race condition: 8
-2023-08-10 12:03:14.366 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e658fe8, python-verify-0, 1] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e658fe8, python-verify-0, 1] Closed consumer for race condition: 1
-2023-08-10 12:03:14.366 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e65cf88, python-verify-0, 9] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e65cf88, python-verify-0, 9] Closed consumer for race condition: 9
-2023-08-10 12:03:14.366 WARN  [0x1088ebe00] ConsumerImpl:151 | [0x7fc34e658ac8, python-verify-0, 0] Destroyed consumer which was not properly closed
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ConsumerImpl:159 | [0x7fc34e658ac8, python-verify-0, 0] Closed consumer for race condition: 0
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ClientConnection:1205 | [[::1]:60224 -> [::1]:6650] Connection disconnected
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ClientConnection:1205 | [[::1]:60225 -> [::1]:6650] Connection disconnected
-2023-08-10 12:03:14.366 INFO  [0x700000e06000] ClientConnection:263 | [[::1]:60224 -> [::1]:6650] Destroyed connection
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ClientConnection:1205 | [[::1]:60226 -> [::1]:6650] Connection disconnected
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ClientConnection:1205 | [[::1]:60227 -> [::1]:6650] Connection disconnected
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ClientConnection:263 | [[::1]:60226 -> [::1]:6650] Destroyed connection
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ClientConnection:263 | [[::1]:60225 -> [::1]:6650] Destroyed connection
-2023-08-10 12:03:14.366 INFO  [0x1088ebe00] ClientConnection:263 | [[::1]:60227 -> [::1]:6650] Destroyed connection
+2023-08-10 12:58:09.359 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a85a0dc8, python-verify-0, 11] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.359 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a85a0dc8, python-verify-0, 11] Closed consumer for race condition: 11
+2023-08-10 12:58:09.359 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859ca98, python-verify-0, 2] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.359 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859ca98, python-verify-0, 2] Closed consumer for race condition: 2
+2023-08-10 12:58:09.359 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a85a0688, python-verify-0, 10] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.359 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a85a0688, python-verify-0, 10] Closed consumer for race condition: 10
+2023-08-10 12:58:09.359 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859e118, python-verify-0, 5] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.359 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859e118, python-verify-0, 5] Closed consumer for race condition: 5
+2023-08-10 12:58:09.359 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859efc8, python-verify-0, 7] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.359 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859efc8, python-verify-0, 7] Closed consumer for race condition: 7
+2023-08-10 12:58:09.359 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859e888, python-verify-0, 6] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.359 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859e888, python-verify-0, 6] Closed consumer for race condition: 6
+2023-08-10 12:58:09.360 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859d1f8, python-verify-0, 3] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859d1f8, python-verify-0, 3] Closed consumer for race condition: 3
+2023-08-10 12:58:09.360 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859d9d8, python-verify-0, 4] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859d9d8, python-verify-0, 4] Closed consumer for race condition: 4
+2023-08-10 12:58:09.360 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859f788, python-verify-0, 8] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859f788, python-verify-0, 8] Closed consumer for race condition: 8
+2023-08-10 12:58:09.360 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859bb78, python-verify-0, 1] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859bb78, python-verify-0, 1] Closed consumer for race condition: 1
+2023-08-10 12:58:09.360 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859fec8, python-verify-0, 9] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859fec8, python-verify-0, 9] Closed consumer for race condition: 9
+2023-08-10 12:58:09.360 WARN  [0x107039e00] ConsumerImpl:151 | [0x7fa7a859bb18, python-verify-0, 0] Destroyed consumer which was not properly closed
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ConsumerImpl:159 | [0x7fa7a859bb18, python-verify-0, 0] Closed consumer for race condition: 0
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ClientConnection:1205 | [[::1]:60849 -> [::1]:6650] Connection disconnected
+2023-08-10 12:58:09.360 INFO  [0x70000b5da000] ClientConnection:263 | [[::1]:60849 -> [::1]:6650] Destroyed connection
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ClientConnection:1205 | [[::1]:60844 -> [::1]:6650] Connection disconnected
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ClientConnection:1205 | [[::1]:60845 -> [::1]:6650] Connection disconnected
+2023-08-10 12:58:09.360 INFO  [0x107039e00] ClientConnection:1205 | [[::1]:60850 -> [::1]:6650] Connection disconnected
+2023-08-10 12:58:09.361 INFO  [0x107039e00] ClientConnection:263 | [[::1]:60850 -> [::1]:6650] Destroyed connection
+2023-08-10 12:58:09.361 INFO  [0x107039e00] ClientConnection:263 | [[::1]:60845 -> [::1]:6650] Destroyed connection
+2023-08-10 12:58:09.361 INFO  [0x107039e00] ClientConnection:263 | [[::1]:60844 -> [::1]:6650] Destroyed connection
