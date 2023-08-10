@@ -1,80 +1,68 @@
-2023-08-09 21:16:38.477 INFO  [0x115adce00] Client:90 | Subscribing on Topic :websight/dxp/chaos-topic
-2023-08-09 21:16:38.478 INFO  [0x115adce00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:16:38.478 INFO  [0x115adce00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
-2023-08-09 21:16:38.483 INFO  [0x7000070a0000] ClientConnection:382 | [[::1]:58153 -> [::1]:6650] Connected to broker
-2023-08-09 21:16:39.167 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded485f8, python-consume, 0] Getting connection from pool
-2023-08-09 21:16:39.167 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded48658, python-consume, 1] Getting connection from pool
-2023-08-09 21:16:39.167 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded474e8, python-consume, 2] Getting connection from pool
-2023-08-09 21:16:39.167 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded47ee8, python-consume, 3] Getting connection from pool
-2023-08-09 21:16:39.167 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:16:39.167 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded41678, python-consume, 5] Getting connection from pool
-2023-08-09 21:16:39.167 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded44bd8, python-consume, 6] Getting connection from pool
-2023-08-09 21:16:39.168 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49628, python-consume, 7] Getting connection from pool
-2023-08-09 21:16:39.168 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:16:39.168 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4a528, python-consume, 9] Getting connection from pool
-2023-08-09 21:16:39.168 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4ace8, python-consume, 10] Getting connection from pool
-2023-08-09 21:16:39.168 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4b428, python-consume, 11] Getting connection from pool
-2023-08-09 21:16:39.308 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:16:39.308 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-09 21:16:39.309 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:16:39.309 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-09 21:16:39.309 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:16:39.309 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-09 21:16:39.310 INFO  [0x7000070a0000] ClientConnection:384 | [[::1]:58156 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-09 21:16:39.310 INFO  [0x7000070a0000] ClientConnection:384 | [[::1]:58158 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-09 21:16:39.311 INFO  [0x7000070a0000] ClientConnection:384 | [[::1]:58160 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
-2023-08-09 21:16:39.954 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded44bd8, python-consume, 6] Created consumer on broker [[::1]:58160 -> [::1]:6650] 
-2023-08-09 21:16:39.954 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 11
-2023-08-09 21:16:39.956 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded474e8, python-consume, 2] Created consumer on broker [[::1]:58160 -> [::1]:6650] 
-2023-08-09 21:16:39.956 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 10
-2023-08-09 21:16:39.956 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded4ace8, python-consume, 10] Created consumer on broker [[::1]:58160 -> [::1]:6650] 
-2023-08-09 21:16:39.956 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 9
-2023-08-09 21:16:39.997 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded40188, python-consume, 4] Created consumer on broker [[::1]:58156 -> [::1]:6650] 
-2023-08-09 21:16:39.997 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 8
-2023-08-09 21:16:39.998 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded48658, python-consume, 1] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:16:39.998 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 7
-2023-08-09 21:16:40.083 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded41678, python-consume, 5] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:16:40.083 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 6
-2023-08-09 21:16:40.083 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded47ee8, python-consume, 3] Created consumer on broker [[::1]:58156 -> [::1]:6650] 
-2023-08-09 21:16:40.083 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 5
-2023-08-09 21:16:40.083 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded485f8, python-consume, 0] Created consumer on broker [[::1]:58156 -> [::1]:6650] 
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 4
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded4b428, python-consume, 11] Created consumer on broker [[::1]:58156 -> [::1]:6650] 
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 3
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded49de8, python-consume, 8] Created consumer on broker [[::1]:58156 -> [::1]:6650] 
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 2
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded49628, python-consume, 7] Created consumer on broker [[::1]:58156 -> [::1]:6650] 
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 1
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded4a528, python-consume, 9] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 0
-2023-08-09 21:16:40.084 INFO  [0x7000070a0000] MultiTopicsConsumerImpl:146 | Successfully Subscribed to Topics
-2023-08-09 21:17:09.024 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 0
-2023-08-09 21:17:09.024 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded485f8, python-consume, 0] Schedule reconnection in 0.1 s
-2023-08-09 21:17:09.035 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 8
-2023-08-09 21:17:09.035 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49de8, python-consume, 8] Schedule reconnection in 0.1 s
-2023-08-09 21:17:09.039 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 4
-2023-08-09 21:17:09.039 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded40188, python-consume, 4] Schedule reconnection in 0.1 s
-2023-08-09 21:17:09.083 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 7
-2023-08-09 21:17:09.083 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49628, python-consume, 7] Schedule reconnection in 0.1 s
-2023-08-09 21:17:09.083 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 11
-2023-08-09 21:17:09.083 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4b428, python-consume, 11] Schedule reconnection in 0.1 s
-2023-08-09 21:17:09.083 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 3
-2023-08-09 21:17:09.083 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded47ee8, python-consume, 3] Schedule reconnection in 0.1 s
-2023-08-09 21:17:09.125 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded485f8, python-consume, 0] Getting connection from pool
-2023-08-09 21:17:09.135 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:17:09.139 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:17:09.187 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49628, python-consume, 7] Getting connection from pool
-2023-08-09 21:17:09.187 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4b428, python-consume, 11] Getting connection from pool
-2023-08-09 21:17:09.187 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded47ee8, python-consume, 3] Getting connection from pool
-2023-08-09 21:17:09.439 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded40188, python-consume, 4] Created consumer on broker [[::1]:58160 -> [::1]:6650] 
-2023-08-09 21:17:09.440 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded49de8, python-consume, 8] Created consumer on broker [[::1]:58160 -> [::1]:6650] 
-2023-08-09 21:17:09.440 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded485f8, python-consume, 0] Created consumer on broker [[::1]:58160 -> [::1]:6650] 
-2023-08-09 21:17:09.516 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded47ee8, python-consume, 3] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:09.516 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded4b428, python-consume, 11] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:09.516 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded49628, python-consume, 7] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:10.149 ERROR [0x7000070a0000] ClientConnection:616 | [[::1]:58156 -> [::1]:6650] Read operation failed: End of file
-2023-08-09 21:17:10.150 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58156 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:17:10.150 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58156 -> [::1]:6650] Destroyed connection
+2023-08-10 11:58:28.300 INFO  [0x107c39e00] Client:90 | Subscribing on Topic :websight/dxp/chaos-topic
+2023-08-10 11:58:28.301 INFO  [0x107c39e00] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:58:28.301 INFO  [0x107c39e00] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:58:28.303 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60113 -> [::1]:6650] Connected to broker
+2023-08-10 11:58:29.231 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a6112f8, python-consume, 0] Getting connection from pool
+2023-08-10 11:58:29.231 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a611388, python-consume, 1] Getting connection from pool
+2023-08-10 11:58:29.231 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a60f618, python-consume, 2] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61aa08, python-consume, 3] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b1e8, python-consume, 4] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b928, python-consume, 5] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c098, python-consume, 6] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c7d8, python-consume, 7] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61cf98, python-consume, 8] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61d6d8, python-consume, 9] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61de98, python-consume, 10] Getting connection from pool
+2023-08-10 11:58:29.232 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61e5d8, python-consume, 11] Getting connection from pool
+2023-08-10 11:58:29.385 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:58:29.385 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 11:58:29.386 INFO  [0x70000c3d7000] ClientConnection:384 | [[::1]:60114 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-2.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 11:58:29.403 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:58:29.403 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 11:58:29.403 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:58:29.403 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 11:58:29.404 INFO  [0x70000c3d7000] ClientConnection:384 | [[::1]:60115 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-1.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 11:58:29.404 INFO  [0x70000c3d7000] ClientConnection:384 | [[::1]:60117 -> [::1]:6650] Connected to broker through proxy. Logical broker: pulsar://pulsar-broker-0.pulsar-broker.pulsar.svc.cluster.local:6650
+2023-08-10 11:58:30.099 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61c098, python-consume, 6] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:30.100 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 11
+2023-08-10 11:58:30.100 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a6112f8, python-consume, 0] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:30.100 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 10
+2023-08-10 11:58:30.100 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61b1e8, python-consume, 4] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:30.100 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 9
+2023-08-10 11:58:30.100 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a60f618, python-consume, 2] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:30.100 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 8
+2023-08-10 11:58:30.115 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61cf98, python-consume, 8] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:30.115 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 7
+2023-08-10 11:58:30.116 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61de98, python-consume, 10] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:30.116 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 6
+2023-08-10 11:58:30.300 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61b928, python-consume, 5] Created consumer on broker [[::1]:60115 -> [::1]:6650] 
+2023-08-10 11:58:30.300 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 5
+2023-08-10 11:58:30.300 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61d6d8, python-consume, 9] Created consumer on broker [[::1]:60115 -> [::1]:6650] 
+2023-08-10 11:58:30.300 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 4
+2023-08-10 11:58:30.300 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a611388, python-consume, 1] Created consumer on broker [[::1]:60115 -> [::1]:6650] 
+2023-08-10 11:58:30.300 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 3
+2023-08-10 11:58:30.404 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61aa08, python-consume, 3] Created consumer on broker [[::1]:60117 -> [::1]:6650] 
+2023-08-10 11:58:30.404 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 2
+2023-08-10 11:58:30.404 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61e5d8, python-consume, 11] Created consumer on broker [[::1]:60117 -> [::1]:6650] 
+2023-08-10 11:58:30.404 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 1
+2023-08-10 11:58:30.404 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61c7d8, python-consume, 7] Created consumer on broker [[::1]:60117 -> [::1]:6650] 
+2023-08-10 11:58:30.404 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:304 | Successfully Subscribed to a single partition of topic in TopicsConsumer. Partitions need to create : 0
+2023-08-10 11:58:30.404 INFO  [0x70000c3d7000] MultiTopicsConsumerImpl:146 | Successfully Subscribed to Topics
+2023-08-10 11:58:58.734 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 7
+2023-08-10 11:58:58.734 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c7d8, python-consume, 7] Schedule reconnection in 0.1 s
+2023-08-10 11:58:58.741 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 11
+2023-08-10 11:58:58.741 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61e5d8, python-consume, 11] Schedule reconnection in 0.1 s
+2023-08-10 11:58:58.743 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 3
+2023-08-10 11:58:58.743 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61aa08, python-consume, 3] Schedule reconnection in 0.1 s
+2023-08-10 11:58:58.837 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c7d8, python-consume, 7] Getting connection from pool
+2023-08-10 11:58:58.842 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61e5d8, python-consume, 11] Getting connection from pool
+2023-08-10 11:58:58.843 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61aa08, python-consume, 3] Getting connection from pool
+2023-08-10 11:58:59.164 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61c7d8, python-consume, 7] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:59.167 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61e5d8, python-consume, 11] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:59.168 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61aa08, python-consume, 3] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:58:59.820 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60117 -> [::1]:6650] Read operation failed: End of file
+2023-08-10 11:58:59.820 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60117 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:58:59.820 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60117 -> [::1]:6650] Destroyed connection
 Received message: 'b'verification-message''
 Received message: 'b'hello-pulsar-0''
 Received message: 'b'hello-pulsar-1''
@@ -272,7 +260,6 @@ Received message: 'b'hello-pulsar-192''
 Received message: 'b'hello-pulsar-193''
 Received message: 'b'hello-pulsar-194''
 Received message: 'b'hello-pulsar-195''
-Received message: 'b'hello-pulsar-194''
 Received message: 'b'hello-pulsar-196''
 Received message: 'b'hello-pulsar-197''
 Received message: 'b'hello-pulsar-198''
@@ -282,261 +269,340 @@ Received message: 'b'hello-pulsar-201''
 Received message: 'b'hello-pulsar-202''
 Received message: 'b'hello-pulsar-203''
 Received message: 'b'hello-pulsar-204''
-2023-08-09 21:17:20.456 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 0
-2023-08-09 21:17:20.456 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded485f8, python-consume, 0] Schedule reconnection in 0.1 s
-2023-08-09 21:17:20.457 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 8
-2023-08-09 21:17:20.457 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49de8, python-consume, 8] Schedule reconnection in 0.1 s
-2023-08-09 21:17:20.461 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 4
-2023-08-09 21:17:20.461 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded40188, python-consume, 4] Schedule reconnection in 0.1 s
-2023-08-09 21:17:20.536 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 6
-2023-08-09 21:17:20.536 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded44bd8, python-consume, 6] Schedule reconnection in 0.1 s
-2023-08-09 21:17:20.542 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 10
-2023-08-09 21:17:20.542 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4ace8, python-consume, 10] Schedule reconnection in 0.1 s
-2023-08-09 21:17:20.542 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 2
-2023-08-09 21:17:20.542 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded474e8, python-consume, 2] Schedule reconnection in 0.1 s
-2023-08-09 21:17:20.559 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded485f8, python-consume, 0] Getting connection from pool
-2023-08-09 21:17:20.559 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:17:20.561 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:17:20.641 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded44bd8, python-consume, 6] Getting connection from pool
-2023-08-09 21:17:20.642 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4ace8, python-consume, 10] Getting connection from pool
-2023-08-09 21:17:20.643 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded474e8, python-consume, 2] Getting connection from pool
-2023-08-09 21:17:20.895 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded485f8, python-consume, 0] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:20.895 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded49de8, python-consume, 8] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:20.895 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded40188, python-consume, 4] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:20.926 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded44bd8, python-consume, 6] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:20.926 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded4ace8, python-consume, 10] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:20.927 INFO  [0x7000070a0000] ConsumerImpl:282 | [0x7fc9ded474e8, python-consume, 2] Created consumer on broker [[::1]:58158 -> [::1]:6650] 
-2023-08-09 21:17:21.590 ERROR [0x7000070a0000] ClientConnection:616 | [[::1]:58160 -> [::1]:6650] Read operation failed: End of file
-2023-08-09 21:17:21.590 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58160 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:17:21.590 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58160 -> [::1]:6650] Destroyed connection
-2023-08-09 21:17:32.670 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 0
-2023-08-09 21:17:32.670 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded485f8, python-consume, 0] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.672 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 8
-2023-08-09 21:17:32.672 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49de8, python-consume, 8] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.675 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 4
-2023-08-09 21:17:32.675 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded40188, python-consume, 4] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.731 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 1
-2023-08-09 21:17:32.731 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded48658, python-consume, 1] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.731 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 9
-2023-08-09 21:17:32.731 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4a528, python-consume, 9] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.731 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 5
-2023-08-09 21:17:32.731 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded41678, python-consume, 5] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.752 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 7
-2023-08-09 21:17:32.753 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49628, python-consume, 7] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.753 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 11
-2023-08-09 21:17:32.753 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4b428, python-consume, 11] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.760 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 3
-2023-08-09 21:17:32.760 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded47ee8, python-consume, 3] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.771 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded485f8, python-consume, 0] Getting connection from pool
-2023-08-09 21:17:32.772 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:17:32.776 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:17:32.783 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 6
-2023-08-09 21:17:32.783 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded44bd8, python-consume, 6] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.799 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 10
-2023-08-09 21:17:32.799 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4ace8, python-consume, 10] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.799 INFO  [0x7000070a0000] ConsumerImpl:1202 | Broker notification of Closed consumer: 2
-2023-08-09 21:17:32.799 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded474e8, python-consume, 2] Schedule reconnection in 0.1 s
-2023-08-09 21:17:32.835 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded48658, python-consume, 1] Getting connection from pool
-2023-08-09 21:17:32.835 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4a528, python-consume, 9] Getting connection from pool
-2023-08-09 21:17:32.835 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded41678, python-consume, 5] Getting connection from pool
-2023-08-09 21:17:32.853 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49628, python-consume, 7] Getting connection from pool
-2023-08-09 21:17:32.853 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4b428, python-consume, 11] Getting connection from pool
-2023-08-09 21:17:32.860 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded47ee8, python-consume, 3] Getting connection from pool
-2023-08-09 21:17:32.884 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded44bd8, python-consume, 6] Getting connection from pool
-2023-08-09 21:17:32.899 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4ace8, python-consume, 10] Getting connection from pool
-2023-08-09 21:17:32.900 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded474e8, python-consume, 2] Getting connection from pool
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58153 -> [::1]:6650] Failed lookup req_id: 26 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: pulsar-broker.pulsar.svc.cluster.local/10.8.4.18:6650
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result Retryable
-2023-08-09 21:17:32.922 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-0 for 100 ms, remaining time: 29900 ms
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] ClientConnection:616 | [[::1]:58153 -> [::1]:6650] Read operation failed: Bad file descriptor
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58153 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result ConnectError
-2023-08-09 21:17:32.922 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49de8, python-consume, 8] Schedule reconnection in 0.19 s
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result ConnectError
-2023-08-09 21:17:32.922 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded40188, python-consume, 4] Schedule reconnection in 0.19 s
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-1, result ConnectError
-2023-08-09 21:17:32.922 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded48658, python-consume, 1] Schedule reconnection in 0.194 s
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result ConnectError
-2023-08-09 21:17:32.922 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4a528, python-consume, 9] Schedule reconnection in 0.194 s
-2023-08-09 21:17:32.922 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result ConnectError
-2023-08-09 21:17:32.922 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded41678, python-consume, 5] Schedule reconnection in 0.194 s
-2023-08-09 21:17:32.923 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-7, result ConnectError
-2023-08-09 21:17:32.923 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49628, python-consume, 7] Schedule reconnection in 0.196 s
-2023-08-09 21:17:32.923 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-11, result ConnectError
-2023-08-09 21:17:32.923 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4b428, python-consume, 11] Schedule reconnection in 0.196 s
-2023-08-09 21:17:32.923 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-3, result ConnectError
-2023-08-09 21:17:32.923 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded47ee8, python-consume, 3] Schedule reconnection in 0.196 s
-2023-08-09 21:17:32.923 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-6, result ConnectError
-2023-08-09 21:17:32.923 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded44bd8, python-consume, 6] Schedule reconnection in 0.196 s
-2023-08-09 21:17:32.923 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result ConnectError
-2023-08-09 21:17:32.923 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4ace8, python-consume, 10] Schedule reconnection in 0.196 s
-2023-08-09 21:17:32.923 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result ConnectError
-2023-08-09 21:17:32.923 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded474e8, python-consume, 2] Schedule reconnection in 0.196 s
-2023-08-09 21:17:33.027 INFO  [0x7000070a0000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 11 @ 0x7fc9ef025200
-2023-08-09 21:17:33.027 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:17:33.027 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
-2023-08-09 21:17:33.029 INFO  [0x7000070a0000] ClientConnection:382 | [[::1]:58170 -> [::1]:6650] Connected to broker
-2023-08-09 21:17:33.115 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:17:33.115 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:17:33.117 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded48658, python-consume, 1] Getting connection from pool
-2023-08-09 21:17:33.117 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4a528, python-consume, 9] Getting connection from pool
-2023-08-09 21:17:33.117 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded41678, python-consume, 5] Getting connection from pool
-2023-08-09 21:17:33.119 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49628, python-consume, 7] Getting connection from pool
-2023-08-09 21:17:33.119 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4b428, python-consume, 11] Getting connection from pool
-2023-08-09 21:17:33.119 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded47ee8, python-consume, 3] Getting connection from pool
-2023-08-09 21:17:33.119 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded44bd8, python-consume, 6] Getting connection from pool
-2023-08-09 21:17:33.119 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4ace8, python-consume, 10] Getting connection from pool
-2023-08-09 21:17:33.120 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded474e8, python-consume, 2] Getting connection from pool
-2023-08-09 21:17:43.029 ERROR [0x7000070a0000] ClientConnection:573 | [[::1]:58170 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
-2023-08-09 21:17:43.029 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58170 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded485f8, python-consume, 0] Schedule reconnection in 0.19 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49de8, python-consume, 8] Schedule reconnection in 0.372 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded40188, python-consume, 4] Schedule reconnection in 0.372 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded48658, python-consume, 1] Schedule reconnection in 0.392 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4a528, python-consume, 9] Schedule reconnection in 0.392 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded41678, python-consume, 5] Schedule reconnection in 0.392 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49628, python-consume, 7] Schedule reconnection in 0.38 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4b428, python-consume, 11] Schedule reconnection in 0.38 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded47ee8, python-consume, 3] Schedule reconnection in 0.38 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded44bd8, python-consume, 6] Schedule reconnection in 0.38 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4ace8, python-consume, 10] Schedule reconnection in 0.38 s
-2023-08-09 21:17:43.029 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded474e8, python-consume, 2] Schedule reconnection in 0.38 s
-2023-08-09 21:17:43.029 WARN  [0x7000070a0000] MultiTopicsConsumerImpl:994 | Failed to getPartitionMetadata: ConnectError
-2023-08-09 21:17:43.030 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58170 -> [::1]:6650] Destroyed connection
-2023-08-09 21:17:43.224 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded485f8, python-consume, 0] Getting connection from pool
-2023-08-09 21:17:43.224 INFO  [0x7000070a0000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
-2023-08-09 21:17:43.225 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:17:43.225 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
-2023-08-09 21:17:43.226 INFO  [0x7000070a0000] ClientConnection:382 | [[::1]:58173 -> [::1]:6650] Connected to broker
-2023-08-09 21:17:43.402 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:17:43.402 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:17:43.410 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49628, python-consume, 7] Getting connection from pool
-2023-08-09 21:17:43.410 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4b428, python-consume, 11] Getting connection from pool
-2023-08-09 21:17:43.410 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded47ee8, python-consume, 3] Getting connection from pool
-2023-08-09 21:17:43.410 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded44bd8, python-consume, 6] Getting connection from pool
-2023-08-09 21:17:43.410 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4ace8, python-consume, 10] Getting connection from pool
-2023-08-09 21:17:43.410 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded474e8, python-consume, 2] Getting connection from pool
-2023-08-09 21:17:43.422 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded48658, python-consume, 1] Getting connection from pool
-2023-08-09 21:17:43.422 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4a528, python-consume, 9] Getting connection from pool
-2023-08-09 21:17:43.422 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded41678, python-consume, 5] Getting connection from pool
-2023-08-09 21:17:53.227 ERROR [0x7000070a0000] ClientConnection:573 | [[::1]:58173 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
-2023-08-09 21:17:53.227 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58173 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded485f8, python-consume, 0] Schedule reconnection in 0.372 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49de8, python-consume, 8] Schedule reconnection in 0.784 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded40188, python-consume, 4] Schedule reconnection in 0.784 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49628, python-consume, 7] Schedule reconnection in 0.744 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4b428, python-consume, 11] Schedule reconnection in 0.744 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded47ee8, python-consume, 3] Schedule reconnection in 0.744 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded44bd8, python-consume, 6] Schedule reconnection in 0.744 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4ace8, python-consume, 10] Schedule reconnection in 0.744 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded474e8, python-consume, 2] Schedule reconnection in 0.744 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded48658, python-consume, 1] Schedule reconnection in 0.76 s
-2023-08-09 21:17:53.227 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4a528, python-consume, 9] Schedule reconnection in 0.76 s
-2023-08-09 21:17:53.228 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded41678, python-consume, 5] Schedule reconnection in 0.76 s
-2023-08-09 21:17:53.228 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58173 -> [::1]:6650] Destroyed connection
-2023-08-09 21:17:53.602 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded485f8, python-consume, 0] Getting connection from pool
-2023-08-09 21:17:53.602 INFO  [0x7000070a0000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
-2023-08-09 21:17:53.602 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:17:53.602 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
-2023-08-09 21:17:53.604 INFO  [0x7000070a0000] ClientConnection:382 | [[::1]:58176 -> [::1]:6650] Connected to broker
-2023-08-09 21:17:53.971 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49628, python-consume, 7] Getting connection from pool
-2023-08-09 21:17:53.972 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4b428, python-consume, 11] Getting connection from pool
-2023-08-09 21:17:53.972 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded47ee8, python-consume, 3] Getting connection from pool
-2023-08-09 21:17:53.972 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded44bd8, python-consume, 6] Getting connection from pool
-2023-08-09 21:17:53.972 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4ace8, python-consume, 10] Getting connection from pool
-2023-08-09 21:17:53.972 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded474e8, python-consume, 2] Getting connection from pool
-2023-08-09 21:17:53.988 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded48658, python-consume, 1] Getting connection from pool
-2023-08-09 21:17:53.988 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4a528, python-consume, 9] Getting connection from pool
-2023-08-09 21:17:53.988 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded41678, python-consume, 5] Getting connection from pool
-2023-08-09 21:17:54.015 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:17:54.015 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 49 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result Retryable
-2023-08-09 21:17:54.310 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-4 for 192 ms, remaining time: 29808 ms
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 48 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result Retryable
-2023-08-09 21:17:54.310 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-8 for 380 ms, remaining time: 29620 ms
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 47 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result Retryable
-2023-08-09 21:17:54.310 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-5 for 800 ms, remaining time: 29200 ms
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 46 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result Retryable
-2023-08-09 21:17:54.310 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-9 for 1536 ms, remaining time: 28464 ms
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 45 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-1, result Retryable
-2023-08-09 21:17:54.310 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-1 for 3072 ms, remaining time: 26928 ms
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 44 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result Retryable
-2023-08-09 21:17:54.310 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-2 for 6080 ms, remaining time: 23920 ms
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 43 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.310 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result Retryable
-2023-08-09 21:17:54.310 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-10 for 12032 ms, remaining time: 17968 ms
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 42 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-6, result Retryable
-2023-08-09 21:17:54.311 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-6 for 24576 ms, remaining time: 5424 ms
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 41 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-3, result Retryable
-2023-08-09 21:17:54.311 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-3 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 40 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-11, result Retryable
-2023-08-09 21:17:54.311 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-11 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 39 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-7, result Retryable
-2023-08-09 21:17:54.311 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-7 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58176 -> [::1]:6650] Failed lookup req_id: 38 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result Retryable
-2023-08-09 21:17:54.311 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-0 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] ClientConnection:616 | [[::1]:58176 -> [::1]:6650] Read operation failed: Bad file descriptor
-2023-08-09 21:17:54.311 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58176 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:17:54.311 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58176 -> [::1]:6650] Destroyed connection
-2023-08-09 21:17:54.502 INFO  [0x7000070a0000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
-2023-08-09 21:17:54.503 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:17:54.503 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
-2023-08-09 21:17:54.504 INFO  [0x7000070a0000] ClientConnection:382 | [[::1]:58177 -> [::1]:6650] Connected to broker
-2023-08-09 21:18:02.900 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58153 -> [::1]:6650] Destroyed connection
-2023-08-09 21:18:04.507 ERROR [0x7000070a0000] ClientConnection:573 | [[::1]:58177 -> [::1]:6650] Connection was not established in 10000 ms, close the socket
-2023-08-09 21:18:04.507 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58177 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:18:04.507 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded40188, python-consume, 4] Schedule reconnection in 1.52 s
-2023-08-09 21:18:04.507 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded49de8, python-consume, 8] Schedule reconnection in 1.52 s
-2023-08-09 21:18:04.507 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded41678, python-consume, 5] Schedule reconnection in 1.488 s
-2023-08-09 21:18:04.507 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded4a528, python-consume, 9] Schedule reconnection in 1.488 s
-2023-08-09 21:18:04.507 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded48658, python-consume, 1] Schedule reconnection in 1.488 s
-2023-08-09 21:18:04.507 INFO  [0x7000070a0000] HandlerBase:149 | [0x7fc9ded474e8, python-consume, 2] Schedule reconnection in 1.568 s
-2023-08-09 21:18:04.507 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58177 -> [::1]:6650] Destroyed connection
-2023-08-09 21:18:05.995 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded41678, python-consume, 5] Getting connection from pool
-2023-08-09 21:18:05.995 INFO  [0x7000070a0000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
-2023-08-09 21:18:05.995 INFO  [0x7000070a0000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
-2023-08-09 21:18:05.995 INFO  [0x7000070a0000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
-2023-08-09 21:18:05.995 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded4a528, python-consume, 9] Getting connection from pool
-2023-08-09 21:18:05.996 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded48658, python-consume, 1] Getting connection from pool
-2023-08-09 21:18:05.996 INFO  [0x7000070a0000] ClientConnection:382 | [[::1]:58182 -> [::1]:6650] Connected to broker
-2023-08-09 21:18:06.030 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded40188, python-consume, 4] Getting connection from pool
-2023-08-09 21:18:06.030 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded49de8, python-consume, 8] Getting connection from pool
-2023-08-09 21:18:06.076 INFO  [0x7000070a0000] HandlerBase:72 | [0x7fc9ded474e8, python-consume, 2] Getting connection from pool
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58182 -> [::1]:6650] Failed lookup req_id: 56 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result Retryable
-2023-08-09 21:18:06.722 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-10 for 17968 ms, remaining time: 0 ms
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58182 -> [::1]:6650] Failed lookup req_id: 55 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result Retryable
-2023-08-09 21:18:06.722 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-2 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58182 -> [::1]:6650] Failed lookup req_id: 54 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result Retryable
-2023-08-09 21:18:06.722 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-8 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58182 -> [::1]:6650] Failed lookup req_id: 53 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result Retryable
-2023-08-09 21:18:06.722 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-4 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58182 -> [::1]:6650] Failed lookup req_id: 52 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:18:06.722 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-1, result Retryable
-2023-08-09 21:18:06.722 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-1 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:18:06.723 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58182 -> [::1]:6650] Failed lookup req_id: 51 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:18:06.723 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result Retryable
-2023-08-09 21:18:06.723 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-9 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:18:06.723 ERROR [0x7000070a0000] ClientConnection:1521 | [[::1]:58182 -> [::1]:6650] Failed lookup req_id: 50 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' after 2 queries 
-2023-08-09 21:18:06.723 ERROR [0x7000070a0000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result Retryable
-2023-08-09 21:18:06.723 INFO  [0x7000070a0000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-5 for 30000 ms, remaining time: 0 ms
-2023-08-09 21:18:06.723 ERROR [0x7000070a0000] ClientConnection:616 | [[::1]:58182 -> [::1]:6650] Read operation failed: Bad file descriptor
-2023-08-09 21:18:06.723 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58182 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:18:06.723 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58182 -> [::1]:6650] Destroyed connection
-2023-08-09 21:18:08.897 ERROR [0x7000070a0000] ClientConnection:616 | [[::1]:58158 -> [::1]:6650] Read operation failed: End of file
-2023-08-09 21:18:08.897 ERROR [0x7000070a0000] ClientConnection:1203 | [[::1]:58158 -> [::1]:6650] Connection closed with ConnectError
-2023-08-09 21:18:08.897 INFO  [0x7000070a0000] ClientConnection:263 | [[::1]:58158 -> [::1]:6650] Destroyed connection
+Received message: 'b'hello-pulsar-205''
+2023-08-10 11:59:05.555 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 1
+2023-08-10 11:59:05.556 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a611388, python-consume, 1] Schedule reconnection in 0.1 s
+2023-08-10 11:59:05.563 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 9
+2023-08-10 11:59:05.563 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61d6d8, python-consume, 9] Schedule reconnection in 0.1 s
+2023-08-10 11:59:05.564 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 5
+2023-08-10 11:59:05.564 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b928, python-consume, 5] Schedule reconnection in 0.1 s
+2023-08-10 11:59:05.657 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a611388, python-consume, 1] Getting connection from pool
+2023-08-10 11:59:05.665 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61d6d8, python-consume, 9] Getting connection from pool
+2023-08-10 11:59:05.665 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b928, python-consume, 5] Getting connection from pool
+2023-08-10 11:59:05.994 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a611388, python-consume, 1] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:59:05.996 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61d6d8, python-consume, 9] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:59:05.997 INFO  [0x70000c3d7000] ConsumerImpl:282 | [0x7fa46a61b928, python-consume, 5] Created consumer on broker [[::1]:60114 -> [::1]:6650] 
+2023-08-10 11:59:06.624 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60115 -> [::1]:6650] Read operation failed: End of file
+2023-08-10 11:59:06.624 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60115 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:06.624 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60115 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:12.311 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 0
+2023-08-10 11:59:12.312 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a6112f8, python-consume, 0] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.315 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 8
+2023-08-10 11:59:12.315 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61cf98, python-consume, 8] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.317 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 4
+2023-08-10 11:59:12.317 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b1e8, python-consume, 4] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.373 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 6
+2023-08-10 11:59:12.373 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c098, python-consume, 6] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.380 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 10
+2023-08-10 11:59:12.380 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61de98, python-consume, 10] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.380 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 2
+2023-08-10 11:59:12.381 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a60f618, python-consume, 2] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.416 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a6112f8, python-consume, 0] Getting connection from pool
+2023-08-10 11:59:12.416 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61cf98, python-consume, 8] Getting connection from pool
+2023-08-10 11:59:12.417 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b1e8, python-consume, 4] Getting connection from pool
+2023-08-10 11:59:12.425 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 7
+2023-08-10 11:59:12.425 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c7d8, python-consume, 7] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.425 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 11
+2023-08-10 11:59:12.425 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61e5d8, python-consume, 11] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.425 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 3
+2023-08-10 11:59:12.425 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61aa08, python-consume, 3] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.454 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 1
+2023-08-10 11:59:12.454 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a611388, python-consume, 1] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.456 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 9
+2023-08-10 11:59:12.456 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61d6d8, python-consume, 9] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.464 INFO  [0x70000c3d7000] ConsumerImpl:1202 | Broker notification of Closed consumer: 5
+2023-08-10 11:59:12.464 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b928, python-consume, 5] Schedule reconnection in 0.1 s
+2023-08-10 11:59:12.473 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c098, python-consume, 6] Getting connection from pool
+2023-08-10 11:59:12.482 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61de98, python-consume, 10] Getting connection from pool
+2023-08-10 11:59:12.482 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a60f618, python-consume, 2] Getting connection from pool
+2023-08-10 11:59:12.526 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c7d8, python-consume, 7] Getting connection from pool
+2023-08-10 11:59:12.526 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61e5d8, python-consume, 11] Getting connection from pool
+2023-08-10 11:59:12.526 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61aa08, python-consume, 3] Getting connection from pool
+2023-08-10 11:59:12.555 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a611388, python-consume, 1] Getting connection from pool
+2023-08-10 11:59:12.557 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61d6d8, python-consume, 9] Getting connection from pool
+2023-08-10 11:59:12.564 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b928, python-consume, 5] Getting connection from pool
+2023-08-10 11:59:12.788 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60113 -> [::1]:6650] Failed lookup req_id: 31 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:12.788 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result Retryable
+2023-08-10 11:59:12.789 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-5 for 100 ms, remaining time: 29900 ms
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60113 -> [::1]:6650] Failed lookup req_id: 30 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result Retryable
+2023-08-10 11:59:12.789 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-9 for 198 ms, remaining time: 29802 ms
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60113 -> [::1]:6650] Failed lookup req_id: 29 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-1, result Retryable
+2023-08-10 11:59:12.789 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-1 for 376 ms, remaining time: 29624 ms
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60113 -> [::1]:6650] Failed lookup req_id: 28 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-3, result Retryable
+2023-08-10 11:59:12.789 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-3 for 752 ms, remaining time: 29248 ms
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60113 -> [::1]:6650] Failed lookup req_id: 27 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-11, result Retryable
+2023-08-10 11:59:12.789 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-11 for 1600 ms, remaining time: 28400 ms
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60113 -> [::1]:6650] Failed lookup req_id: 26 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-7, result Retryable
+2023-08-10 11:59:12.789 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-7 for 3136 ms, remaining time: 26864 ms
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60113 -> [::1]:6650] Failed lookup req_id: 25 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result Retryable
+2023-08-10 11:59:12.789 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-2 for 6080 ms, remaining time: 23920 ms
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60113 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60113 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:12.789 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result ConnectError
+2023-08-10 11:59:12.790 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a6112f8, python-consume, 0] Schedule reconnection in 0.192 s
+2023-08-10 11:59:12.790 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result ConnectError
+2023-08-10 11:59:12.790 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61cf98, python-consume, 8] Schedule reconnection in 0.192 s
+2023-08-10 11:59:12.790 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result ConnectError
+2023-08-10 11:59:12.790 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b1e8, python-consume, 4] Schedule reconnection in 0.192 s
+2023-08-10 11:59:12.790 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-6, result ConnectError
+2023-08-10 11:59:12.790 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c098, python-consume, 6] Schedule reconnection in 0.192 s
+2023-08-10 11:59:12.790 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result ConnectError
+2023-08-10 11:59:12.790 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61de98, python-consume, 10] Schedule reconnection in 0.192 s
+2023-08-10 11:59:12.890 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 5 @ 0x7fa46b057000
+2023-08-10 11:59:12.890 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:12.890 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:12.892 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60130 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:12.984 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a6112f8, python-consume, 0] Getting connection from pool
+2023-08-10 11:59:12.984 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61cf98, python-consume, 8] Getting connection from pool
+2023-08-10 11:59:12.984 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b1e8, python-consume, 4] Getting connection from pool
+2023-08-10 11:59:12.984 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c098, python-consume, 6] Getting connection from pool
+2023-08-10 11:59:12.984 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61de98, python-consume, 10] Getting connection from pool
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 39 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-1, result Retryable
+2023-08-10 11:59:13.498 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-1 for 12160 ms, remaining time: 17464 ms
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 38 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result Retryable
+2023-08-10 11:59:13.498 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-9 for 25344 ms, remaining time: 4458 ms
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 37 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result Retryable
+2023-08-10 11:59:13.498 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-10 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 36 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-6, result Retryable
+2023-08-10 11:59:13.498 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-6 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 35 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.498 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result Retryable
+2023-08-10 11:59:13.498 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-4 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 34 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result Retryable
+2023-08-10 11:59:13.499 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-8 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 33 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result Retryable
+2023-08-10 11:59:13.499 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-0 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60130 -> [::1]:6650] Failed lookup req_id: 32 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result Retryable
+2023-08-10 11:59:13.499 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-5 for 29900 ms, remaining time: 0 ms
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60130 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:13.499 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60130 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:13.499 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60130 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:13.514 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60114 -> [::1]:6650] Read operation failed: End of file
+2023-08-10 11:59:13.514 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60114 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:13.514 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60114 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:13.545 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:13.546 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:13.546 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:13.547 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60131 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:13.659 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60131 -> [::1]:6650] Read operation failed: Connection reset by peer
+2023-08-10 11:59:13.659 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60131 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:13.659 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61aa08, python-consume, 3] Schedule reconnection in 0.2 s
+2023-08-10 11:59:13.659 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60131 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:13.864 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61aa08, python-consume, 3] Getting connection from pool
+2023-08-10 11:59:13.864 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:13.864 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:13.864 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:13.865 WARN  [0x70000c3d7000] ClientConnection:450 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 11:59:13.866 ERROR [0x70000c3d7000] ClientConnection:475 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 11:59:13.866 INFO  [0x70000c3d7000] ClientConnection:1205 | [<none> -> pulsar://localhost:6650] Connection disconnected
+2023-08-10 11:59:13.866 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-3 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:13.866 INFO  [0x70000c3d7000] ClientConnection:263 | [<none> -> pulsar://localhost:6650] Destroyed connection
+2023-08-10 11:59:14.390 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:14.390 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:14.390 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:14.391 WARN  [0x70000c3d7000] ClientConnection:450 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 11:59:14.391 ERROR [0x70000c3d7000] ClientConnection:475 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 11:59:14.391 INFO  [0x70000c3d7000] ClientConnection:1205 | [<none> -> pulsar://localhost:6650] Connection disconnected
+2023-08-10 11:59:14.391 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-11 for 28400 ms, remaining time: 0 ms
+2023-08-10 11:59:14.391 INFO  [0x70000c3d7000] ClientConnection:263 | [<none> -> pulsar://localhost:6650] Destroyed connection
+2023-08-10 11:59:15.927 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:15.927 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:15.928 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:15.929 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60153 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:16.513 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60153 -> [::1]:6650] Failed lookup req_id: 40 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: pulsar-broker.pulsar.svc.cluster.local/10.8.4.23:6650
+2023-08-10 11:59:16.513 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-7, result Retryable
+2023-08-10 11:59:16.513 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-7 for 26864 ms, remaining time: 0 ms
+2023-08-10 11:59:16.513 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60153 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:16.513 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60153 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:16.513 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60153 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:18.874 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:18.874 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:18.874 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:18.875 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60155 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:19.516 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60155 -> [::1]:6650] Failed lookup req_id: 41 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:19.516 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result Retryable
+2023-08-10 11:59:19.516 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-2 for 23920 ms, remaining time: 0 ms
+2023-08-10 11:59:19.516 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60155 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:19.516 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60155 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:19.517 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60155 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:25.663 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:25.663 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:25.663 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:25.664 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60158 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:25.993 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60158 -> [::1]:6650] Read operation failed: End of file
+2023-08-10 11:59:25.993 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60158 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:25.993 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a611388, python-consume, 1] Schedule reconnection in 0.2 s
+2023-08-10 11:59:25.993 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60158 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:26.194 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a611388, python-consume, 1] Getting connection from pool
+2023-08-10 11:59:26.194 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:26.194 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:26.194 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:26.195 WARN  [0x70000c3d7000] ClientConnection:450 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 11:59:26.195 ERROR [0x70000c3d7000] ClientConnection:475 | [<none> -> pulsar://localhost:6650] Failed to establish connection: Connection refused
+2023-08-10 11:59:26.195 INFO  [0x70000c3d7000] ClientConnection:1205 | [<none> -> pulsar://localhost:6650] Connection disconnected
+2023-08-10 11:59:26.195 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-1 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:26.195 INFO  [0x70000c3d7000] ClientConnection:263 | [<none> -> pulsar://localhost:6650] Destroyed connection
+2023-08-10 11:59:30.405 INFO  [0x70000c4dd000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:30.405 INFO  [0x70000c4dd000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:30.405 INFO  [0x70000c4dd000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:30.406 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60170 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:31.040 ERROR [0x70000c3d7000] ClientConnection:1444 | [[::1]:60170 -> [::1]:6650] Failed partition-metadata lookup req_id: 42 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:31.040 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-partition-metadata-persistent://websight/dxp/chaos-topic for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:31.040 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60170 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:31.040 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60170 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:31.041 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60170 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:38.846 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:38.846 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:38.846 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:38.847 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60173 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:39.626 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60173 -> [::1]:6650] Failed lookup req_id: 43 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:39.627 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result Retryable
+2023-08-10 11:59:39.627 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-9 for 4458 ms, remaining time: 0 ms
+2023-08-10 11:59:39.627 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60173 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:39.627 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60173 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:39.627 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60173 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:42.483 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60113 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:42.792 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:42.792 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:42.792 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:42.793 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60179 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:43.368 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60179 -> [::1]:6650] Failed lookup req_id: 44 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:43.368 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-11, result Retryable
+2023-08-10 11:59:43.368 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61e5d8, python-consume, 11] Schedule reconnection in 0.2 s
+2023-08-10 11:59:43.368 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60179 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:43.368 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60179 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:43.368 INFO  [0x70000c3d7000] ClientConnection:263 | [[::1]:60179 -> [::1]:6650] Destroyed connection
+2023-08-10 11:59:43.378 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: -1 @ 0x0
+2023-08-10 11:59:43.379 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:43.379 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:43.379 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60181 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:43.572 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61e5d8, python-consume, 11] Getting connection from pool
+2023-08-10 11:59:43.955 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60181 -> [::1]:6650] Failed lookup req_id: 49 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:43.955 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-6, result Retryable
+2023-08-10 11:59:43.955 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c098, python-consume, 6] Schedule reconnection in 0.4 s
+2023-08-10 11:59:43.955 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60181 -> [::1]:6650] Failed lookup req_id: 48 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:43.955 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result Retryable
+2023-08-10 11:59:43.955 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61de98, python-consume, 10] Schedule reconnection in 0.4 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60181 -> [::1]:6650] Failed lookup req_id: 47 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result Retryable
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a60f618, python-consume, 2] Schedule reconnection in 0.192 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60181 -> [::1]:6650] Failed lookup req_id: 46 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result Retryable
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b928, python-consume, 5] Schedule reconnection in 0.2 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60181 -> [::1]:6650] Failed lookup req_id: 45 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: io.netty.resolver.dns.DefaultDnsCache$2: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-7, result Retryable
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c7d8, python-consume, 7] Schedule reconnection in 0.2 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60181 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60181 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result ConnectError
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b1e8, python-consume, 4] Schedule reconnection in 0.4 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result ConnectError
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61cf98, python-consume, 8] Schedule reconnection in 0.4 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result ConnectError
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a6112f8, python-consume, 0] Schedule reconnection in 0.4 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-11, result ConnectError
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61e5d8, python-consume, 11] Schedule reconnection in 0.372 s
+2023-08-10 11:59:43.956 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-3, result ConnectError
+2023-08-10 11:59:43.956 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61aa08, python-consume, 3] Schedule reconnection in 0.372 s
+2023-08-10 11:59:44.089 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 5 @ 0x7fa47b81f200
+2023-08-10 11:59:44.089 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:44.089 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:44.091 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60184 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:44.149 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a60f618, python-consume, 2] Getting connection from pool
+2023-08-10 11:59:44.158 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b928, python-consume, 5] Getting connection from pool
+2023-08-10 11:59:44.158 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c7d8, python-consume, 7] Getting connection from pool
+2023-08-10 11:59:44.333 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61e5d8, python-consume, 11] Getting connection from pool
+2023-08-10 11:59:44.333 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61aa08, python-consume, 3] Getting connection from pool
+2023-08-10 11:59:44.356 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c098, python-consume, 6] Getting connection from pool
+2023-08-10 11:59:44.356 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61de98, python-consume, 10] Getting connection from pool
+2023-08-10 11:59:44.356 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b1e8, python-consume, 4] Getting connection from pool
+2023-08-10 11:59:44.356 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61cf98, python-consume, 8] Getting connection from pool
+2023-08-10 11:59:44.356 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a6112f8, python-consume, 0] Getting connection from pool
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60184 -> [::1]:6650] Failed lookup req_id: 65 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-0, result Retryable
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-0 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60184 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60184 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61d6d8, python-consume, 9] Schedule reconnection in 0.2 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a60f618, python-consume, 2] Schedule reconnection in 0.4 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b928, python-consume, 5] Schedule reconnection in 0.372 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-7, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c7d8, python-consume, 7] Schedule reconnection in 0.372 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-11, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61e5d8, python-consume, 11] Schedule reconnection in 0.728 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-3, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61aa08, python-consume, 3] Schedule reconnection in 0.728 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-6, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c098, python-consume, 6] Schedule reconnection in 0.744 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61de98, python-consume, 10] Schedule reconnection in 0.744 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b1e8, python-consume, 4] Schedule reconnection in 0.744 s
+2023-08-10 11:59:44.692 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result ConnectError
+2023-08-10 11:59:44.692 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61cf98, python-consume, 8] Schedule reconnection in 0.744 s
+2023-08-10 11:59:44.896 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61d6d8, python-consume, 9] Getting connection from pool
+2023-08-10 11:59:44.896 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 10 @ 0x7fa46b057000
+2023-08-10 11:59:44.896 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:44.897 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:44.897 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60187 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:45.066 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b928, python-consume, 5] Getting connection from pool
+2023-08-10 11:59:45.067 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c7d8, python-consume, 7] Getting connection from pool
+2023-08-10 11:59:45.095 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a60f618, python-consume, 2] Getting connection from pool
+2023-08-10 11:59:45.424 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61e5d8, python-consume, 11] Getting connection from pool
+2023-08-10 11:59:45.424 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61aa08, python-consume, 3] Getting connection from pool
+2023-08-10 11:59:45.437 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c098, python-consume, 6] Getting connection from pool
+2023-08-10 11:59:45.437 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61de98, python-consume, 10] Getting connection from pool
+2023-08-10 11:59:45.437 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b1e8, python-consume, 4] Getting connection from pool
+2023-08-10 11:59:45.437 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61cf98, python-consume, 8] Getting connection from pool
+2023-08-10 11:59:45.498 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60187 -> [::1]:6650] Failed lookup req_id: 69 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:45.498 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-2, result Retryable
+2023-08-10 11:59:45.498 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-2 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:45.498 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60187 -> [::1]:6650] Failed lookup req_id: 68 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-7, result Retryable
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-7 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60187 -> [::1]:6650] Failed lookup req_id: 67 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-5, result Retryable
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-5 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] ClientConnection:1521 | [[::1]:60187 -> [::1]:6650] Failed lookup req_id: 66 error: Retryable msg: org.apache.pulsar.client.api.PulsarClientException: java.util.concurrent.CompletionException: java.net.UnknownHostException: Failed to resolve 'pulsar-broker' [A(1)] after 2 queries 
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-9, result Retryable
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] RetryableLookupService:142 | Reschedule get-broker-persistent://websight/dxp/chaos-topic-partition-9 for 30000 ms, remaining time: 0 ms
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] ClientConnection:616 | [[::1]:60187 -> [::1]:6650] Read operation failed: Bad file descriptor
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] ClientConnection:1203 | [[::1]:60187 -> [::1]:6650] Connection closed with ConnectError
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-11, result ConnectError
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61e5d8, python-consume, 11] Schedule reconnection in 1.472 s
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-3, result ConnectError
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61aa08, python-consume, 3] Schedule reconnection in 1.472 s
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-6, result ConnectError
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61c098, python-consume, 6] Schedule reconnection in 1.456 s
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-10, result ConnectError
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61de98, python-consume, 10] Schedule reconnection in 1.456 s
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-4, result ConnectError
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61b1e8, python-consume, 4] Schedule reconnection in 1.456 s
+2023-08-10 11:59:45.499 ERROR [0x70000c3d7000] BinaryProtoLookupService:68 | Lookup failed for persistent://websight/dxp/chaos-topic-partition-8, result ConnectError
+2023-08-10 11:59:45.499 INFO  [0x70000c3d7000] HandlerBase:149 | [0x7fa46a61cf98, python-consume, 8] Schedule reconnection in 1.456 s
+2023-08-10 11:59:46.958 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61c098, python-consume, 6] Getting connection from pool
+2023-08-10 11:59:46.958 INFO  [0x70000c3d7000] ConnectionPool:87 | Deleting stale connection from pool for pulsar://localhost:6650 use_count: 6 @ 0x7fa47a852800
+2023-08-10 11:59:46.958 INFO  [0x70000c3d7000] ClientConnection:184 | [<none> -> pulsar://localhost:6650] Create ClientConnection, timeout=10000
+2023-08-10 11:59:46.958 INFO  [0x70000c3d7000] ConnectionPool:106 | Created connection for pulsar://localhost:6650
+2023-08-10 11:59:46.958 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61de98, python-consume, 10] Getting connection from pool
+2023-08-10 11:59:46.958 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61b1e8, python-consume, 4] Getting connection from pool
+2023-08-10 11:59:46.958 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61cf98, python-consume, 8] Getting connection from pool
+2023-08-10 11:59:46.959 INFO  [0x70000c3d7000] ClientConnection:382 | [[::1]:60189 -> [::1]:6650] Connected to broker
+2023-08-10 11:59:46.974 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61e5d8, python-consume, 11] Getting connection from pool
+2023-08-10 11:59:46.974 INFO  [0x70000c3d7000] HandlerBase:72 | [0x7fa46a61aa08, python-consume, 3] Getting connection from pool

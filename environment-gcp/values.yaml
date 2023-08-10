@@ -1,4 +1,4 @@
-defaultPulsarImageTag: 3.0.0
+defaultPulsarImageTag: 3.0.1
 
 affinity:
   anti_affinity: false
